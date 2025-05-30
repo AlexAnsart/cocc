@@ -9,6 +9,8 @@ It will be particularly useful for clan wars, where attack planning is possible 
 
 The program will also have to account for randomness: hidden traps, castle clan defense troops, and some rare random troop behaviours such as the fact that air troops position themselves randomly on the front of the building they are targeting, making it more difficult to predict where the air troop will go after that target is destroyed. Ideally, the program would find the perfect way to attack a base, as well as an estimate of the percentage of incertitude for that attack (accounting for all randomness). This percentage can be calculated by computing all the different possible outcomes (determined by all possible random events) of a precise attack, and measuring the differences in final destruction percentage between those outcomes.
 
+The project is mainly educational. The best part will of course be the training of the AI finding the best attacks on a base.
+
 ### Current Status (Alpha - TH3 Prototype)
 
 - Basic battle simulation engine tailored for Town Hall 3.
@@ -31,7 +33,7 @@ Finding the optimal attack strategy in Clash of Clans is a complex combinatorial
 - Simulation Requirements: Each strategy evaluation necessitates a full battle simulation. A standard game lasts 180 seconds, which at a typical 60 ticks/second for physics and AI, translates to ~10,800 ticks per simulation.
 - Computational Complexity: Per tick, calculations involve pathfinding for each unit, target detection, damage dealing, HP updates, and collision checks. This can amount to ~50,000 operations per tick for a moderately complex battle, leading to ~500-600 million operations per full simulation.
 
-### Our Approach (Conceptual for Advanced AI)
+### My Approach (Conceptual for Advanced AI)
 
 1. High-Performance Simulation Engine
    - Current Prototype: Python-based, achieving a few seconds per full TH3 simulation.
@@ -48,6 +50,14 @@ Finding the optimal attack strategy in Clash of Clans is a complex combinatorial
    - Monte Carlo Tree Search (MCTS) for strategic exploration of the vast action space.
    - Reinforcement Learning (RL) to learn from successful and unsuccessful attack patterns over millions of simulated battles.
    - Heuristic pruning to eliminate obviously suboptimal strategies early in the search process.
+
+   The envisioned process is multi-staged to manage complexity:
+   1. Initial Candidate Generation: The AI model would first identify a manageable set (e.g., a few hundred) of diverse and potentially viable high-level attack strategies for a given base.
+   2. Simulation & Pruning: These initial candidates would be simulated. Strategies that perform poorly or fail catastrophically would be quickly eliminated.
+   3. Focused Refinement: Promising strategies undergo deeper exploration. This involves generating and testing numerous subtle variations (e.g., slight adjustments in deployment timing, troop composition, spell placement, or attack angles) to optimize their effectiveness.
+   4. Robustness Analysis (Randomness Accounting): For the top-performing refined strategies, the simulator would then run multiple simulations while varying the random elements (e.g., hidden trap locations within plausible areas, defender Clan Castle troop compositions, minor troop behavioral randomness). This step aims to determine the expected range of outcomes and an "uncertainty percentage" for each elite strategy, providing a measure of its reliability.
+
+   This iterative approach aims to intelligently navigate the search space, focusing computational resources on the most promising avenues rather than attempting an exhaustive brute-force search. The specifics of how these stages are implemented and integrated will evolve with the project.
 
 3. Optimal Simulation Architecture (Conceptual)
    A hybrid architecture could be employed:
