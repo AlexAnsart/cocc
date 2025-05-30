@@ -152,7 +152,9 @@ The A* pathfinding algorithm considers walls based on the attacking troop:
 ![Attack Stage 2](images/screenshots/attack_stage_2.png)
 ![Attack Stage 3](images/screenshots/attack_stage_3.png)![Attack Recap](images/screenshots/attack_recap.png)
 
-[![Video Demo](images/screenshots/attack_stage_3.png)](https://youtu.be/KIQY5QDfUYw)
+### VIDEO DEMO
+
+[Link to Video Demo](https://www.youtube.com/watch?v=KIQY5QDfUYw)
 
 ## Installation and Usage
 
