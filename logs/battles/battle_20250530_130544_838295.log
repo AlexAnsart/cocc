@@ -1,0 +1,861 @@
+2025-05-30 13:05:44,838 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Battle started. Base: Simple TH3 Par Défaut, Troops: 49, Max Duration: 180.0s
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Giant(type=giant, level=1, pos=(5.0,10.0), hp=300/300, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Giant(type=giant, level=1, pos=(5.0,30.0), hp=300/300, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Giant(type=giant, level=1, pos=(35.0,10.0), hp=300/300, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Giant(type=giant, level=1, pos=(35.0,30.0), hp=300/300, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: WallBreaker(type=wall_breaker, level=1, pos=(6.0,9.0), hp=20/20, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: WallBreaker(type=wall_breaker, level=1, pos=(6.0,31.0), hp=20/20, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: WallBreaker(type=wall_breaker, level=1, pos=(34.0,9.0), hp=20/20, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: WallBreaker(type=wall_breaker, level=1, pos=(34.0,31.0), hp=20/20, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: WallBreaker(type=wall_breaker, level=1, pos=(20.0,5.0), hp=20/20, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Barbarian(type=barbarian, level=2, pos=(7.0,11.0), hp=54/54, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Barbarian(type=barbarian, level=2, pos=(7.0,29.0), hp=54/54, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Barbarian(type=barbarian, level=2, pos=(33.0,11.0), hp=54/54, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Barbarian(type=barbarian, level=2, pos=(33.0,29.0), hp=54/54, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Barbarian(type=barbarian, level=2, pos=(4.0,15.0), hp=54/54, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Barbarian(type=barbarian, level=2, pos=(4.0,25.0), hp=54/54, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Barbarian(type=barbarian, level=2, pos=(36.0,15.0), hp=54/54, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Barbarian(type=barbarian, level=2, pos=(36.0,25.0), hp=54/54, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Barbarian(type=barbarian, level=2, pos=(10.0,5.0), hp=54/54, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Barbarian(type=barbarian, level=2, pos=(30.0,5.0), hp=54/54, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Barbarian(type=barbarian, level=2, pos=(10.0,35.0), hp=54/54, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Barbarian(type=barbarian, level=2, pos=(30.0,35.0), hp=54/54, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Archer(type=archer, level=2, pos=(8.0,12.0), hp=23/23, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Archer(type=archer, level=2, pos=(8.0,28.0), hp=23/23, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Archer(type=archer, level=2, pos=(32.0,12.0), hp=23/23, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Archer(type=archer, level=2, pos=(32.0,28.0), hp=23/23, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Archer(type=archer, level=2, pos=(3.0,5.0), hp=23/23, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Archer(type=archer, level=2, pos=(3.0,35.0), hp=23/23, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Archer(type=archer, level=2, pos=(37.0,5.0), hp=23/23, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Archer(type=archer, level=2, pos=(37.0,35.0), hp=23/23, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Archer(type=archer, level=2, pos=(15.0,3.0), hp=23/23, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Archer(type=archer, level=2, pos=(25.0,3.0), hp=23/23, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Archer(type=archer, level=2, pos=(15.0,37.0), hp=23/23, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Archer(type=archer, level=2, pos=(25.0,37.0), hp=23/23, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Archer(type=archer, level=2, pos=(1.0,20.0), hp=23/23, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Archer(type=archer, level=2, pos=(39.0,20.0), hp=23/23, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Archer(type=archer, level=2, pos=(20.0,1.0), hp=23/23, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Archer(type=archer, level=2, pos=(20.0,39.0), hp=23/23, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Archer(type=archer, level=2, pos=(5.0,5.0), hp=23/23, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Archer(type=archer, level=2, pos=(35.0,35.0), hp=23/23, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Goblin(type=goblin, level=2, pos=(1.0,2.0), hp=30/30, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Goblin(type=goblin, level=2, pos=(2.0,1.0), hp=30/30, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Goblin(type=goblin, level=2, pos=(39.0,2.0), hp=30/30, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Goblin(type=goblin, level=2, pos=(38.0,1.0), hp=30/30, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Goblin(type=goblin, level=2, pos=(1.0,38.0), hp=30/30, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Goblin(type=goblin, level=2, pos=(2.0,39.0), hp=30/30, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Goblin(type=goblin, level=2, pos=(39.0,38.0), hp=30/30, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Goblin(type=goblin, level=2, pos=(38.0,39.0), hp=30/30, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Goblin(type=goblin, level=2, pos=(15.0,5.0), hp=30/30, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Troop: Goblin(type=goblin, level=2, pos=(25.0,35.0), hp=30/30, state=idle)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: TownHall(type=town_hall, level=3, pos=(20,20), hp=1400/1400)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Cannon(type=cannon, level=3, pos=(15,18), hp=520/520)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Cannon(type=cannon, level=3, pos=(25,18), hp=520/520)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: ArcherTower(type=archer_tower, level=2, pos=(18,15), hp=420/420)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Mortar(type=mortar, level=1, pos=(20,25), hp=400/400)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: GoldStorage(type=gold_storage, level=2, pos=(10,10), hp=500/500)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: ElixirStorage(type=elixir_storage, level=2, pos=(30,30), hp=500/500)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: GoldMine(type=gold_mine, level=3, pos=(8,15), hp=500/500)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: ElixirCollector(type=elixir_collector, level=3, pos=(32,15), hp=500/500)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: GoldMine(type=gold_mine, level=3, pos=(15,8), hp=500/500)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: ElixirCollector(type=elixir_collector, level=3, pos=(25,8), hp=500/500)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: GoldMine(type=gold_mine, level=3, pos=(8,25), hp=500/500)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: ElixirCollector(type=elixir_collector, level=3, pos=(32,25), hp=500/500)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Barracks(type=barracks, level=2, pos=(5,20), hp=275/275)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Laboratory(type=laboratory, level=1, pos=(35,20), hp=250/250)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: BuilderHut(type=builder_hut, level=1, pos=(2,2), hp=250/250)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: BuilderHut(type=builder_hut, level=1, pos=(38,38), hp=250/250)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(17,13), hp=700/700)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(18,13), hp=700/700)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(19,13), hp=700/700)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(20,13), hp=700/700)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(21,13), hp=700/700)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(22,13), hp=700/700)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(23,13), hp=700/700)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(17,23), hp=700/700)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(18,23), hp=700/700)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(19,23), hp=700/700)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(16,14), hp=700/700)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(16,15), hp=700/700)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(16,16), hp=700/700)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(16,17), hp=700/700)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(16,21), hp=700/700)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(16,22), hp=700/700)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(24,14), hp=700/700)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(24,15), hp=700/700)
+2025-05-30 13:05:44,838 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(24,16), hp=700/700)
+2025-05-30 13:05:44,853 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(24,17), hp=700/700)
+2025-05-30 13:05:44,853 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(24,18), hp=700/700)
+2025-05-30 13:05:44,853 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(24,19), hp=700/700)
+2025-05-30 13:05:44,853 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(24,20), hp=700/700)
+2025-05-30 13:05:44,853 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(24,21), hp=700/700)
+2025-05-30 13:05:44,853 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(24,22), hp=700/700)
+2025-05-30 13:05:44,853 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(19,24), hp=700/700)
+2025-05-30 13:05:44,853 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(20,24), hp=700/700)
+2025-05-30 13:05:44,853 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(21,24), hp=700/700)
+2025-05-30 13:05:44,855 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(22,24), hp=700/700)
+2025-05-30 13:05:44,855 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(23,24), hp=700/700)
+2025-05-30 13:05:44,855 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(19,28), hp=700/700)
+2025-05-30 13:05:44,855 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(18,25), hp=700/700)
+2025-05-30 13:05:44,856 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(18,26), hp=700/700)
+2025-05-30 13:05:44,856 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(18,27), hp=700/700)
+2025-05-30 13:05:44,856 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(14,17), hp=700/700)
+2025-05-30 13:05:44,856 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(15,17), hp=700/700)
+2025-05-30 13:05:44,856 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(13,18), hp=700/700)
+2025-05-30 13:05:44,856 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(13,19), hp=700/700)
+2025-05-30 13:05:44,858 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(25,17), hp=700/700)
+2025-05-30 13:05:44,858 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(26,17), hp=700/700)
+2025-05-30 13:05:44,858 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(23,18), hp=700/700)
+2025-05-30 13:05:44,858 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(23,19), hp=700/700)
+2025-05-30 13:05:44,858 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(12,17), hp=700/700)
+2025-05-30 13:05:44,858 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(12,20), hp=700/700)
+2025-05-30 13:05:44,858 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(28,17), hp=700/700)
+2025-05-30 13:05:44,858 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(28,20), hp=700/700)
+2025-05-30 13:05:44,858 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(17,12), hp=700/700)
+2025-05-30 13:05:44,858 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(23,12), hp=700/700)
+2025-05-30 13:05:44,858 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(18,29), hp=700/700)
+2025-05-30 13:05:44,858 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Initial Building: Wall(type=wall, level=3, pos=(22,29), hp=700/700)
+2025-05-30 13:05:44,859 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:44,947 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop giant_1 moved from (5, 10) to (5.50, 10.50) -> Target: cannon
+2025-05-30 13:05:44,947 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop giant_1 state changed from idle to moving
+2025-05-30 13:05:44,947 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop giant_1 new target: cannon
+2025-05-30 13:05:44,948 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop giant_1 moved from (5, 30) to (5.50, 30.50) -> Target: cannon
+2025-05-30 13:05:44,948 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop giant_1 state changed from idle to moving
+2025-05-30 13:05:44,948 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop giant_1 new target: cannon
+2025-05-30 13:05:44,949 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop giant_1 moved from (35, 10) to (35.50, 10.50) -> Target: cannon
+2025-05-30 13:05:44,949 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop giant_1 state changed from idle to moving
+2025-05-30 13:05:44,949 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop giant_1 new target: cannon
+2025-05-30 13:05:44,951 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop giant_1 moved from (35, 30) to (35.50, 30.50) -> Target: mortar
+2025-05-30 13:05:44,951 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop giant_1 state changed from idle to moving
+2025-05-30 13:05:44,951 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop giant_1 new target: mortar
+2025-05-30 13:05:44,952 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop wall_breaker_1 moved from (6, 9) to (6.50, 9.50) -> Target: gold_storage
+2025-05-30 13:05:44,952 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop wall_breaker_1 state changed from idle to moving
+2025-05-30 13:05:44,952 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop wall_breaker_1 new target: gold_storage
+2025-05-30 13:05:44,954 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop wall_breaker_1 moved from (6, 31) to (6.50, 31.50) -> Target: wall
+2025-05-30 13:05:44,954 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop wall_breaker_1 state changed from idle to moving
+2025-05-30 13:05:44,954 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop wall_breaker_1 new target: wall
+2025-05-30 13:05:44,955 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop wall_breaker_1 moved from (34, 9) to (34.50, 9.50) -> Target: wall
+2025-05-30 13:05:44,955 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop wall_breaker_1 state changed from idle to moving
+2025-05-30 13:05:44,955 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop wall_breaker_1 new target: wall
+2025-05-30 13:05:44,956 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop wall_breaker_1 moved from (34, 31) to (34.50, 31.50) -> Target: elixir_storage
+2025-05-30 13:05:44,956 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop wall_breaker_1 state changed from idle to moving
+2025-05-30 13:05:44,956 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop wall_breaker_1 new target: elixir_storage
+2025-05-30 13:05:44,957 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop wall_breaker_1 moved from (20, 5) to (20.50, 5.50) -> Target: wall
+2025-05-30 13:05:44,957 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop wall_breaker_1 state changed from idle to moving
+2025-05-30 13:05:44,957 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop wall_breaker_1 new target: wall
+2025-05-30 13:05:44,958 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 moved from (7, 11) to (7.50, 11.50) -> Target: gold_storage
+2025-05-30 13:05:44,958 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:44,959 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 new target: gold_storage
+2025-05-30 13:05:44,960 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 moved from (7, 29) to (7.60, 28.90) -> Target: gold_mine
+2025-05-30 13:05:44,960 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:44,960 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 new target: gold_mine
+2025-05-30 13:05:44,961 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 moved from (33, 11) to (33.50, 11.50) -> Target: elixir_collector
+2025-05-30 13:05:44,961 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:44,961 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 new target: elixir_collector
+2025-05-30 13:05:44,962 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 moved from (33, 29) to (33.50, 29.50) -> Target: elixir_collector
+2025-05-30 13:05:44,962 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:44,962 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 new target: elixir_collector
+2025-05-30 13:05:44,963 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 moved from (4, 15) to (4.50, 15.50) -> Target: gold_mine
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 new target: gold_mine
+2025-05-30 13:05:44,963 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 moved from (4, 25) to (4.50, 25.50) -> Target: barracks
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 new target: barracks
+2025-05-30 13:05:44,963 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 moved from (36, 15) to (35.90, 15.10) -> Target: elixir_collector
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 new target: elixir_collector
+2025-05-30 13:05:44,963 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 moved from (36, 25) to (35.90, 25.10) -> Target: elixir_collector
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 new target: elixir_collector
+2025-05-30 13:05:44,963 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 moved from (10, 5) to (10.50, 5.50) -> Target: gold_storage
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 new target: gold_storage
+2025-05-30 13:05:44,963 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 moved from (30, 5) to (30.50, 5.50) -> Target: elixir_collector
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 new target: elixir_collector
+2025-05-30 13:05:44,963 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 moved from (10, 35) to (10.50, 35.50) -> Target: gold_mine
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 new target: gold_mine
+2025-05-30 13:05:44,963 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 moved from (30, 35) to (30.50, 35.50) -> Target: elixir_storage
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop barbarian_2 new target: elixir_storage
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 new target: gold_storage
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 new target: gold_mine
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 new target: elixir_collector
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 new target: elixir_collector
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 new target: builder_hut
+2025-05-30 13:05:44,963 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 moved from (3, 35) to (3.50, 35.50) -> Target: gold_mine
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 state changed from idle to moving
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 new target: gold_mine
+2025-05-30 13:05:44,963 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 moved from (37, 5) to (37.50, 5.50) -> Target: elixir_collector
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 state changed from idle to moving
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 new target: elixir_collector
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 new target: builder_hut
+2025-05-30 13:05:44,963 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 moved from (15, 3) to (15.50, 3.50) -> Target: gold_mine
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 state changed from idle to moving
+2025-05-30 13:05:44,963 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 new target: gold_mine
+2025-05-30 13:05:44,979 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 moved from (25, 3) to (25.50, 3.50) -> Target: elixir_collector
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 state changed from idle to moving
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 new target: elixir_collector
+2025-05-30 13:05:44,979 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 moved from (15, 37) to (15.50, 37.50) -> Target: wall
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 state changed from idle to moving
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 new target: wall
+2025-05-30 13:05:44,979 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 moved from (25, 37) to (25.50, 37.50) -> Target: wall
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 state changed from idle to moving
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 new target: wall
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 new target: barracks
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 new target: laboratory
+2025-05-30 13:05:44,979 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 moved from (20, 1) to (20.50, 1.50) -> Target: gold_mine
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 state changed from idle to moving
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 new target: gold_mine
+2025-05-30 13:05:44,979 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 moved from (20, 39) to (20.50, 39.50) -> Target: wall
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 state changed from idle to moving
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 new target: wall
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 new target: builder_hut
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop archer_2 new target: elixir_storage
+2025-05-30 13:05:44,979 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 moved from (1, 2) to (1.50, 2.50) -> Target: builder_hut
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 state changed from idle to moving
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 new target: builder_hut
+2025-05-30 13:05:44,979 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 moved from (2, 1) to (2.50, 1.50) -> Target: builder_hut
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 state changed from idle to moving
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 new target: builder_hut
+2025-05-30 13:05:44,979 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 moved from (39, 2) to (39.50, 2.50) -> Target: elixir_collector
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 state changed from idle to moving
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 new target: elixir_collector
+2025-05-30 13:05:44,979 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 moved from (38, 1) to (38.50, 1.50) -> Target: elixir_collector
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 state changed from idle to moving
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 new target: elixir_collector
+2025-05-30 13:05:44,979 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 moved from (1, 38) to (1.50, 38.50) -> Target: gold_mine
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 state changed from idle to moving
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 new target: gold_mine
+2025-05-30 13:05:44,979 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 moved from (2, 39) to (2.50, 39.50) -> Target: gold_mine
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 state changed from idle to moving
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 new target: gold_mine
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 new target: builder_hut
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 new target: builder_hut
+2025-05-30 13:05:44,979 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 moved from (15, 5) to (15.50, 5.50) -> Target: gold_mine
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 state changed from idle to moving
+2025-05-30 13:05:44,979 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 new target: gold_mine
+2025-05-30 13:05:44,979 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 moved from (25, 35) to (25.50, 35.50) -> Target: elixir_storage
+2025-05-30 13:05:44,994 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 state changed from idle to moving
+2025-05-30 13:05:44,994 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - Troop goblin_2 new target: elixir_storage
+2025-05-30 13:05:44,995 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:None - T:0.00s - Defense cannon LVL3 found potential target: archer LVL2
+2025-05-30 13:05:44,995 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:0.00s - Defense cannon LVL3 acquired new target: archer LVL2 at (32.0,12.0).
+2025-05-30 13:05:44,996 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:None - T:0.00s - Defense archer_tower LVL2 found potential target: wall_breaker LVL1
+2025-05-30 13:05:44,996 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:0.00s - Defense archer_tower LVL2 acquired new target: wall_breaker LVL1 at (20.5,5.5).
+2025-05-30 13:05:44,996 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:None - T:0.00s - Mortar mortar LVL1 found potential target: archer LVL2 (Score: 1)
+2025-05-30 13:05:44,996 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:0.00s - Defense mortar LVL1 acquired new target: archer LVL2 at (32.0,28.0).
+2025-05-30 13:05:44,996 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:0 - T:0.00s - --- Tick End ---
+2025-05-30 13:05:45,047 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:45,047 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop giant_1 moved from (5.5, 10.5) to (6.50, 10.50) -> Target: cannon
+2025-05-30 13:05:45,047 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop giant_1 moved from (5.5, 30.5) to (6.35, 29.65) -> Target: cannon
+2025-05-30 13:05:45,047 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop giant_1 moved from (35.5, 10.5) to (34.65, 11.35) -> Target: cannon
+2025-05-30 13:05:45,047 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop giant_1 moved from (35.5, 30.5) to (34.65, 31.35) -> Target: mortar
+2025-05-30 13:05:45,047 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop wall_breaker_1 moved from (6.5, 9.5) to (7.50, 9.50) -> Target: gold_storage
+2025-05-30 13:05:45,047 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop wall_breaker_1 moved from (6.5, 31.5) to (7.50, 30.50) -> Target: wall
+2025-05-30 13:05:45,047 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop wall_breaker_1 moved from (34.5, 9.5) to (33.50, 10.50) -> Target: wall
+2025-05-30 13:05:45,047 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop wall_breaker_1 moved from (34.5, 31.5) to (33.60, 31.40) -> Target: elixir_storage
+2025-05-30 13:05:45,047 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop wall_breaker_1 moved from (20.5, 5.5) to (19.50, 6.50) -> Target: wall
+2025-05-30 13:05:45,047 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop barbarian_2 state changed from moving to idle
+2025-05-30 13:05:45,047 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop barbarian_2 state changed from moving to idle
+2025-05-30 13:05:45,047 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop barbarian_2 state changed from moving to idle
+2025-05-30 13:05:45,047 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop barbarian_2 state changed from moving to idle
+2025-05-30 13:05:45,047 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop barbarian_2 moved from (4.5, 25.5) to (4.60, 23.90) -> Target: barracks
+2025-05-30 13:05:45,047 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop barbarian_2 state changed from moving to idle
+2025-05-30 13:05:45,047 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop barbarian_2 moved from (30.5, 5.5) to (29.50, 6.50) -> Target: elixir_collector
+2025-05-30 13:05:45,061 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop barbarian_2 state changed from moving to idle
+2025-05-30 13:05:45,061 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop barbarian_2 state changed from moving to idle
+2025-05-30 13:05:45,061 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop archer_2 moved from (3.5, 35.5) to (4.50, 34.50) -> Target: gold_mine
+2025-05-30 13:05:45,061 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop archer_2 moved from (37.5, 5.5) to (36.50, 6.50) -> Target: elixir_collector
+2025-05-30 13:05:45,061 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop archer_2 state changed from moving to idle
+2025-05-30 13:05:45,061 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop archer_2 state changed from moving to idle
+2025-05-30 13:05:45,061 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop archer_2 moved from (15.5, 37.5) to (16.50, 36.50) -> Target: wall
+2025-05-30 13:05:45,061 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop archer_2 moved from (25.5, 37.5) to (24.50, 36.50) -> Target: wall
+2025-05-30 13:05:45,061 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop archer_2 moved from (20.5, 1.5) to (19.50, 2.50) -> Target: gold_mine
+2025-05-30 13:05:45,061 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop archer_2 moved from (20.5, 39.5) to (19.50, 38.50) -> Target: wall
+2025-05-30 13:05:45,061 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop goblin_2 moved from (39.5, 2.5) to (38.50, 3.50) -> Target: elixir_collector
+2025-05-30 13:05:45,061 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop goblin_2 moved from (38.5, 1.5) to (37.50, 2.50) -> Target: elixir_collector
+2025-05-30 13:05:45,077 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop goblin_2 moved from (1.5, 38.5) to (2.50, 37.50) -> Target: gold_mine
+2025-05-30 13:05:45,077 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop goblin_2 moved from (2.5, 39.5) to (3.50, 38.50) -> Target: gold_mine
+2025-05-30 13:05:45,077 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop goblin_2 state changed from moving to idle
+2025-05-30 13:05:45,077 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - Troop goblin_2 moved from (25.5, 35.5) to (26.50, 34.50) -> Target: elixir_storage
+2025-05-30 13:05:45,077 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:1 - T:0.10s - --- Tick End ---
+2025-05-30 13:05:45,132 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:45,132 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop giant_1 moved from (6.5, 10.5) to (7.50, 10.50) -> Target: cannon
+2025-05-30 13:05:45,132 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop giant_1 moved from (6.348528137423857, 29.651471862576145) to (6.50, 29.50) -> Target: cannon
+2025-05-30 13:05:45,132 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop giant_1 moved from (34.651471862576145, 11.348528137423857) to (34.50, 11.50) -> Target: cannon
+2025-05-30 13:05:45,132 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop giant_1 moved from (34.651471862576145, 31.348528137423855) to (34.50, 31.50) -> Target: mortar
+2025-05-30 13:05:45,132 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop wall_breaker_1 moved from (7.5, 9.5) to (9.40, 9.90) -> Target: gold_storage
+2025-05-30 13:05:45,140 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop wall_breaker_1 moved from (7.5, 30.5) to (8.50, 29.50) -> Target: wall
+2025-05-30 13:05:45,140 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop wall_breaker_1 moved from (33.5, 10.5) to (32.50, 11.50) -> Target: wall
+2025-05-30 13:05:45,140 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop wall_breaker_1 state changed from moving to idle
+2025-05-30 13:05:45,140 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop wall_breaker_1 moved from (19.5, 6.5) to (19.50, 7.50) -> Target: wall
+2025-05-30 13:05:45,140 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop barbarian_2 moved from (7.5, 11.5) to (9.10, 11.60) -> Target: gold_storage
+2025-05-30 13:05:45,140 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:45,140 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop barbarian_2 moved from (33.5, 11.5) to (33.50, 12.50) -> Target: elixir_collector
+2025-05-30 13:05:45,140 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:45,140 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop barbarian_2 moved from (33.5, 29.5) to (33.60, 28.90) -> Target: elixir_collector
+2025-05-30 13:05:45,140 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:45,140 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop barbarian_2 moved from (4.5, 15.5) to (5.50, 15.50) -> Target: gold_mine
+2025-05-30 13:05:45,140 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:45,140 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop barbarian_2 state changed from moving to idle
+2025-05-30 13:05:45,140 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop barbarian_2 moved from (10.5, 5.5) to (10.50, 6.50) -> Target: gold_storage
+2025-05-30 13:05:45,140 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:45,156 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop barbarian_2 moved from (29.5, 6.5) to (28.90, 7.60) -> Target: elixir_collector
+2025-05-30 13:05:45,156 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop barbarian_2 moved from (10.5, 35.5) to (10.50, 34.50) -> Target: gold_mine
+2025-05-30 13:05:45,156 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:45,156 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop barbarian_2 moved from (30.5, 35.5) to (30.60, 33.90) -> Target: elixir_storage
+2025-05-30 13:05:45,156 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:45,156 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop archer_2 moved from (4.5, 34.5) to (5.50, 33.50) -> Target: gold_mine
+2025-05-30 13:05:45,156 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop archer_2 moved from (36.5, 6.5) to (35.50, 7.50) -> Target: elixir_collector
+2025-05-30 13:05:45,156 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop archer_2 moved from (15.5, 3.5) to (15.50, 4.00) -> Target: gold_mine
+2025-05-30 13:05:45,156 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop archer_2 state changed from idle to moving
+2025-05-30 13:05:45,156 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop archer_2 moved from (25.5, 3.5) to (25.50, 4.00) -> Target: elixir_collector
+2025-05-30 13:05:45,156 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop archer_2 state changed from idle to moving
+2025-05-30 13:05:45,156 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop archer_2 moved from (16.5, 36.5) to (17.50, 35.50) -> Target: wall
+2025-05-30 13:05:45,156 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop archer_2 moved from (24.5, 36.5) to (23.50, 35.50) -> Target: wall
+2025-05-30 13:05:45,156 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop archer_2 moved from (19.5, 2.5) to (18.50, 3.50) -> Target: gold_mine
+2025-05-30 13:05:45,156 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop archer_2 moved from (19.5, 38.5) to (19.50, 37.50) -> Target: wall
+2025-05-30 13:05:45,172 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop goblin_2 moved from (38.5, 3.5) to (37.50, 4.50) -> Target: elixir_collector
+2025-05-30 13:05:45,172 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop goblin_2 moved from (37.5, 2.5) to (36.50, 3.50) -> Target: elixir_collector
+2025-05-30 13:05:45,172 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop goblin_2 moved from (2.5, 37.5) to (3.50, 36.50) -> Target: gold_mine
+2025-05-30 13:05:45,172 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop goblin_2 moved from (3.5, 38.5) to (4.50, 37.50) -> Target: gold_mine
+2025-05-30 13:05:45,172 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop goblin_2 moved from (15.5, 5.5) to (15.60, 7.10) -> Target: gold_mine
+2025-05-30 13:05:45,172 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop goblin_2 state changed from idle to moving
+2025-05-30 13:05:45,172 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - Troop goblin_2 moved from (26.5, 34.5) to (27.50, 33.50) -> Target: elixir_storage
+2025-05-30 13:05:45,172 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:None - T:0.20s - Defense cannon LVL3 found potential target: barbarian LVL2
+2025-05-30 13:05:45,172 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:0.20s - Defense cannon LVL3 acquired new target: barbarian LVL2 at (9.1,11.6).
+2025-05-30 13:05:45,172 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:2 - T:0.20s - --- Tick End ---
+2025-05-30 13:05:45,227 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:45,227 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop giant_1 moved from (7.5, 10.5) to (8.35, 9.65) -> Target: cannon
+2025-05-30 13:05:45,227 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop giant_1 moved from (6.5, 29.5) to (7.50, 29.50) -> Target: cannon
+2025-05-30 13:05:45,227 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop giant_1 moved from (34.5, 11.5) to (33.65, 12.35) -> Target: cannon
+2025-05-30 13:05:45,227 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop giant_1 moved from (34.5, 31.5) to (34.50, 32.50) -> Target: mortar
+2025-05-30 13:05:45,227 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop wall_breaker_1 moved from (8.5, 29.5) to (9.50, 29.50) -> Target: wall
+2025-05-30 13:05:45,227 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop wall_breaker_1 moved from (32.5, 11.5) to (31.50, 12.50) -> Target: wall
+2025-05-30 13:05:45,227 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop wall_breaker_1 moved from (19.5, 7.5) to (19.50, 8.50) -> Target: wall
+2025-05-30 13:05:45,227 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop barbarian_2 state changed from moving to idle
+2025-05-30 13:05:45,227 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop barbarian_2 moved from (33.5, 12.5) to (33.60, 14.10) -> Target: elixir_collector
+2025-05-30 13:05:45,227 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop barbarian_2 moved from (5.5, 15.5) to (7.10, 15.60) -> Target: gold_mine
+2025-05-30 13:05:45,235 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop barbarian_2 moved from (10.5, 6.5) to (10.50, 7.50) -> Target: gold_storage
+2025-05-30 13:05:45,235 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop barbarian_2 moved from (10.5, 34.5) to (10.50, 33.50) -> Target: gold_mine
+2025-05-30 13:05:45,235 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop barbarian_2 state changed from moving to idle
+2025-05-30 13:05:45,235 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop archer_2 moved from (5.5, 33.5) to (6.50, 32.50) -> Target: gold_mine
+2025-05-30 13:05:45,235 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop archer_2 moved from (35.5, 7.5) to (34.50, 7.50) -> Target: elixir_collector
+2025-05-30 13:05:45,235 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop archer_2 moved from (17.5, 35.5) to (18.50, 34.50) -> Target: wall
+2025-05-30 13:05:45,235 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop archer_2 moved from (23.5, 35.5) to (23.50, 34.50) -> Target: wall
+2025-05-30 13:05:45,235 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop archer_2 moved from (18.5, 3.5) to (18.50, 4.00) -> Target: gold_mine
+2025-05-30 13:05:45,235 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop archer_2 moved from (19.5, 37.5) to (19.50, 36.50) -> Target: wall
+2025-05-30 13:05:45,235 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop goblin_2 moved from (37.5, 4.5) to (36.50, 5.50) -> Target: elixir_collector
+2025-05-30 13:05:45,235 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop goblin_2 moved from (36.5, 3.5) to (35.50, 4.50) -> Target: elixir_collector
+2025-05-30 13:05:45,235 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop goblin_2 moved from (3.5, 36.5) to (4.50, 35.50) -> Target: gold_mine
+2025-05-30 13:05:45,235 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop goblin_2 moved from (4.5, 37.5) to (5.50, 36.50) -> Target: gold_mine
+2025-05-30 13:05:45,235 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop goblin_2 state changed from moving to idle
+2025-05-30 13:05:45,235 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - Troop goblin_2 moved from (27.5, 33.5) to (29.10, 33.10) -> Target: elixir_storage
+2025-05-30 13:05:45,235 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:3 - T:0.30s - --- Tick End ---
+2025-05-30 13:05:45,300 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:45,314 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - Troop giant_1 moved from (8.348528137423857, 9.651471862576143) to (8.50, 9.50) -> Target: cannon
+2025-05-30 13:05:45,314 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - Troop giant_1 state changed from moving to idle
+2025-05-30 13:05:45,330 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - Troop giant_1 moved from (33.651471862576145, 12.348528137423857) to (33.50, 12.50) -> Target: cannon
+2025-05-30 13:05:45,330 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - Troop giant_1 moved from (34.5, 32.5) to (34.50, 33.50) -> Target: mortar
+2025-05-30 13:05:45,330 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - Troop wall_breaker_1 state changed from moving to idle
+2025-05-30 13:05:45,330 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - Troop wall_breaker_1 moved from (31.5, 12.5) to (30.50, 13.50) -> Target: wall
+2025-05-30 13:05:45,330 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - Troop wall_breaker_1 moved from (19.5, 8.5) to (19.50, 9.50) -> Target: wall
+2025-05-30 13:05:45,330 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - Troop barbarian_2 state changed from moving to idle
+2025-05-30 13:05:45,330 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - Troop barbarian_2 state changed from moving to idle
+2025-05-30 13:05:45,330 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - Troop barbarian_2 moved from (10.5, 7.5) to (10.60, 9.10) -> Target: gold_storage
+2025-05-30 13:05:45,330 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - Troop barbarian_2 moved from (10.5, 33.5) to (10.50, 32.50) -> Target: gold_mine
+2025-05-30 13:05:45,330 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - Troop archer_2 moved from (6.5, 32.5) to (7.50, 32.00) -> Target: gold_mine
+2025-05-30 13:05:45,330 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - Troop archer_2 moved from (34.5, 7.5) to (33.50, 7.50) -> Target: elixir_collector
+2025-05-30 13:05:45,345 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - Troop archer_2 state changed from moving to idle
+2025-05-30 13:05:45,345 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - Troop archer_2 moved from (23.5, 34.5) to (23.00, 33.50) -> Target: wall
+2025-05-30 13:05:45,345 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - Troop archer_2 moved from (19.5, 36.5) to (19.50, 35.50) -> Target: wall
+2025-05-30 13:05:45,345 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - Troop goblin_2 moved from (36.5, 5.5) to (35.50, 6.50) -> Target: elixir_collector
+2025-05-30 13:05:45,345 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - Troop goblin_2 moved from (35.5, 4.5) to (34.50, 5.50) -> Target: elixir_collector
+2025-05-30 13:05:45,345 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - Troop goblin_2 moved from (4.5, 35.5) to (5.50, 34.50) -> Target: gold_mine
+2025-05-30 13:05:45,345 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - Troop goblin_2 moved from (5.5, 36.5) to (6.50, 35.50) -> Target: gold_mine
+2025-05-30 13:05:45,345 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:4 - T:0.40s - --- Tick End ---
+2025-05-30 13:05:45,401 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:45,401 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - Troop giant_1 moved from (8.5, 9.5) to (9.35, 8.65) -> Target: cannon
+2025-05-30 13:05:45,401 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - Troop giant_1 moved from (7.5, 29.5) to (8.50, 29.50) -> Target: cannon
+2025-05-30 13:05:45,401 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - Troop giant_1 state changed from idle to moving
+2025-05-30 13:05:45,401 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - Troop giant_1 state changed from moving to idle
+2025-05-30 13:05:45,401 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - Troop giant_1 moved from (34.5, 33.5) to (33.65, 34.35) -> Target: mortar
+2025-05-30 13:05:45,401 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - Troop wall_breaker_1 moved from (9.5, 29.5) to (10.50, 29.50) -> Target: wall
+2025-05-30 13:05:45,401 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - Troop wall_breaker_1 state changed from idle to moving
+2025-05-30 13:05:45,401 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - Troop wall_breaker_1 moved from (30.5, 13.5) to (29.50, 14.50) -> Target: wall
+2025-05-30 13:05:45,401 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - Troop wall_breaker_1 moved from (19.5, 9.5) to (19.50, 10.50) -> Target: wall
+2025-05-30 13:05:45,401 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - Troop barbarian_2 state changed from moving to idle
+2025-05-30 13:05:45,401 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - Troop barbarian_2 moved from (10.5, 32.5) to (10.50, 31.50) -> Target: gold_mine
+2025-05-30 13:05:45,401 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - Troop archer_2 moved from (33.5, 7.5) to (32.00, 7.50) -> Target: elixir_collector
+2025-05-30 13:05:45,401 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - Troop archer_2 moved from (18.5, 34.5) to (18.50, 33.50) -> Target: wall
+2025-05-30 13:05:45,401 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - Troop archer_2 state changed from idle to moving
+2025-05-30 13:05:45,401 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - Troop archer_2 moved from (19.5, 35.5) to (19.50, 34.50) -> Target: wall
+2025-05-30 13:05:45,409 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - Troop goblin_2 moved from (35.5, 6.5) to (34.50, 7.50) -> Target: elixir_collector
+2025-05-30 13:05:45,409 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - Troop goblin_2 moved from (34.5, 5.5) to (33.50, 6.50) -> Target: elixir_collector
+2025-05-30 13:05:45,409 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - Troop goblin_2 moved from (5.5, 34.5) to (6.50, 33.50) -> Target: gold_mine
+2025-05-30 13:05:45,409 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - Troop goblin_2 moved from (6.5, 35.5) to (7.50, 34.50) -> Target: gold_mine
+2025-05-30 13:05:45,409 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:0.50s - archer_tower LVL2 at (18,15) attacks wall_breaker LVL1 at (19.5,10.5) for 13 damage.
+2025-05-30 13:05:45,409 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:5 - T:0.50s - --- Tick End ---
+2025-05-30 13:05:45,462 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:6 - T:0.60s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:45,462 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:6 - T:0.60s - Troop giant_1 moved from (9.348528137423857, 8.651471862576143) to (9.50, 8.50) -> Target: cannon
+2025-05-30 13:05:45,462 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:6 - T:0.60s - Troop giant_1 moved from (8.5, 29.5) to (9.50, 29.50) -> Target: cannon
+2025-05-30 13:05:45,462 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:6 - T:0.60s - Troop giant_1 moved from (33.5, 12.5) to (32.65, 13.35) -> Target: cannon
+2025-05-30 13:05:45,462 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:6 - T:0.60s - Troop giant_1 state changed from idle to moving
+2025-05-30 13:05:45,462 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:6 - T:0.60s - Troop giant_1 moved from (33.651471862576145, 34.348528137423855) to (33.50, 34.50) -> Target: mortar
+2025-05-30 13:05:45,462 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:6 - T:0.60s - Troop wall_breaker_1 moved from (10.5, 29.5) to (11.50, 29.50) -> Target: wall
+2025-05-30 13:05:45,462 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:6 - T:0.60s - Troop wall_breaker_1 moved from (29.5, 14.5) to (28.50, 15.50) -> Target: wall
+2025-05-30 13:05:45,473 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:6 - T:0.60s - Troop wall_breaker_1 moved from (19.5, 10.5) to (19.50, 11.50) -> Target: wall
+2025-05-30 13:05:45,473 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:6 - T:0.60s - Troop barbarian_2 moved from (10.5, 31.5) to (10.50, 30.50) -> Target: gold_mine
+2025-05-30 13:05:45,488 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:6 - T:0.60s - Troop archer_2 moved from (19.5, 34.5) to (19.00, 33.50) -> Target: wall
+2025-05-30 13:05:45,488 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:6 - T:0.60s - Troop goblin_2 moved from (34.5, 7.5) to (33.50, 7.50) -> Target: elixir_collector
+2025-05-30 13:05:45,488 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:6 - T:0.60s - Troop goblin_2 moved from (33.5, 6.5) to (32.50, 7.50) -> Target: elixir_collector
+2025-05-30 13:05:45,488 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:6 - T:0.60s - Troop goblin_2 moved from (6.5, 33.5) to (7.50, 32.50) -> Target: gold_mine
+2025-05-30 13:05:45,488 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:6 - T:0.60s - Troop goblin_2 moved from (7.5, 34.5) to (7.50, 33.50) -> Target: gold_mine
+2025-05-30 13:05:45,488 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:6 - T:0.60s - --- Tick End ---
+2025-05-30 13:05:45,549 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:7 - T:0.70s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:45,549 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:7 - T:0.70s - Troop giant_1 moved from (9.5, 8.5) to (10.50, 8.50) -> Target: cannon
+2025-05-30 13:05:45,549 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:7 - T:0.70s - Troop giant_1 moved from (9.5, 29.5) to (10.50, 29.50) -> Target: cannon
+2025-05-30 13:05:45,549 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:7 - T:0.70s - Troop giant_1 moved from (32.651471862576145, 13.348528137423857) to (32.50, 13.50) -> Target: cannon
+2025-05-30 13:05:45,549 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:7 - T:0.70s - Troop giant_1 moved from (33.5, 34.5) to (32.50, 34.50) -> Target: mortar
+2025-05-30 13:05:45,549 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:7 - T:0.70s - Troop wall_breaker_1 moved from (11.5, 29.5) to (12.50, 28.50) -> Target: wall
+2025-05-30 13:05:45,549 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:7 - T:0.70s - Troop wall_breaker_1 state changed from moving to idle
+2025-05-30 13:05:45,549 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:7 - T:0.70s - Troop wall_breaker_1 moved from (19.5, 11.5) to (17.90, 11.90) -> Target: wall
+2025-05-30 13:05:45,549 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:7 - T:0.70s - Troop barbarian_2 moved from (10.5, 30.5) to (10.60, 28.90) -> Target: gold_mine
+2025-05-30 13:05:45,563 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:7 - T:0.70s - Troop goblin_2 moved from (33.5, 7.5) to (32.50, 7.50) -> Target: elixir_collector
+2025-05-30 13:05:45,563 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:7 - T:0.70s - Troop goblin_2 moved from (32.5, 7.5) to (31.50, 7.50) -> Target: elixir_collector
+2025-05-30 13:05:45,563 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:7 - T:0.70s - Troop goblin_2 moved from (7.5, 32.5) to (7.50, 31.50) -> Target: gold_mine
+2025-05-30 13:05:45,563 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:7 - T:0.70s - Troop goblin_2 moved from (7.5, 33.5) to (7.50, 32.50) -> Target: gold_mine
+2025-05-30 13:05:45,563 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:7 - T:0.70s - --- Tick End ---
+2025-05-30 13:05:45,619 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:8 - T:0.80s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:45,619 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:8 - T:0.80s - Troop giant_1 moved from (10.5, 8.5) to (11.50, 8.50) -> Target: cannon
+2025-05-30 13:05:45,619 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:8 - T:0.80s - Troop giant_1 moved from (10.5, 29.5) to (11.50, 29.50) -> Target: cannon
+2025-05-30 13:05:45,619 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:8 - T:0.80s - Troop giant_1 moved from (32.5, 13.5) to (31.50, 13.50) -> Target: cannon
+2025-05-30 13:05:45,619 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:8 - T:0.80s - Troop giant_1 moved from (32.5, 34.5) to (31.50, 34.50) -> Target: mortar
+2025-05-30 13:05:45,622 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:8 - T:0.80s - Troop wall_breaker_1 moved from (12.5, 28.5) to (12.50, 27.50) -> Target: wall
+2025-05-30 13:05:45,623 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:8 - T:0.80s - Troop wall_breaker_1 moved from (28.5, 15.5) to (28.40, 16.90) -> Target: wall
+2025-05-30 13:05:45,623 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:8 - T:0.80s - Troop wall_breaker_1 state changed from idle to moving
+2025-05-30 13:05:45,628 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:8 - T:0.80s - Troop barbarian_2 state changed from moving to idle
+2025-05-30 13:05:45,630 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:8 - T:0.80s - Troop goblin_2 moved from (32.5, 7.5) to (31.50, 7.50) -> Target: elixir_collector
+2025-05-30 13:05:45,631 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:8 - T:0.80s - Troop goblin_2 moved from (31.5, 7.5) to (30.50, 7.50) -> Target: elixir_collector
+2025-05-30 13:05:45,631 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:8 - T:0.80s - Troop goblin_2 moved from (7.5, 31.5) to (7.50, 30.50) -> Target: gold_mine
+2025-05-30 13:05:45,632 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:8 - T:0.80s - Troop goblin_2 moved from (7.5, 32.5) to (7.50, 31.50) -> Target: gold_mine
+2025-05-30 13:05:45,633 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:8 - T:0.80s - --- Tick End ---
+2025-05-30 13:05:45,684 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:9 - T:0.90s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:45,684 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:9 - T:0.90s - Troop giant_1 moved from (11.5, 8.5) to (12.50, 8.50) -> Target: cannon
+2025-05-30 13:05:45,684 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:9 - T:0.90s - Troop giant_1 moved from (11.5, 29.5) to (12.35, 28.65) -> Target: cannon
+2025-05-30 13:05:45,684 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:9 - T:0.90s - Troop giant_1 moved from (31.5, 13.5) to (30.65, 14.35) -> Target: cannon
+2025-05-30 13:05:45,684 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:9 - T:0.90s - Troop giant_1 moved from (31.5, 34.5) to (30.50, 34.50) -> Target: mortar
+2025-05-30 13:05:45,684 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:9 - T:0.90s - Troop wall_breaker_1 moved from (12.5, 27.5) to (12.50, 26.50) -> Target: wall
+2025-05-30 13:05:45,684 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:9 - T:0.90s - Troop wall_breaker_1 state changed from moving to idle
+2025-05-30 13:05:45,688 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:9 - T:0.90s - Troop goblin_2 moved from (31.5, 7.5) to (30.50, 7.50) -> Target: elixir_collector
+2025-05-30 13:05:45,688 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:9 - T:0.90s - Troop goblin_2 moved from (30.5, 7.5) to (28.90, 7.60) -> Target: elixir_collector
+2025-05-30 13:05:45,688 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:9 - T:0.90s - Troop goblin_2 moved from (7.5, 30.5) to (7.60, 28.90) -> Target: gold_mine
+2025-05-30 13:05:45,688 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:9 - T:0.90s - Troop goblin_2 moved from (7.5, 31.5) to (7.50, 30.50) -> Target: gold_mine
+2025-05-30 13:05:45,688 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:0.90s - cannon LVL3 at (15,18) attacks barbarian LVL2 at (9.1,11.6) for 11 damage.
+2025-05-30 13:05:45,688 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:0.90s - cannon LVL3 at (25,18) attacks archer LVL2 at (32.0,12.0) for 11 damage.
+2025-05-30 13:05:45,688 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:9 - T:0.90s - --- Tick End ---
+2025-05-30 13:05:45,746 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:10 - T:1.00s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:45,747 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:10 - T:1.00s - Troop giant_1 moved from (12.5, 8.5) to (13.35, 7.65) -> Target: cannon
+2025-05-30 13:05:45,748 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:10 - T:1.00s - Troop giant_1 moved from (12.348528137423857, 28.651471862576145) to (12.50, 28.50) -> Target: cannon
+2025-05-30 13:05:45,748 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:10 - T:1.00s - Troop giant_1 moved from (30.651471862576145, 14.348528137423857) to (30.50, 14.50) -> Target: cannon
+2025-05-30 13:05:45,748 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:10 - T:1.00s - Troop giant_1 moved from (30.5, 34.5) to (29.50, 34.50) -> Target: mortar
+2025-05-30 13:05:45,750 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:10 - T:1.00s - Troop wall_breaker_1 moved from (12.5, 26.5) to (12.50, 25.50) -> Target: wall
+2025-05-30 13:05:45,756 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:10 - T:1.00s - Troop goblin_2 moved from (30.5, 7.5) to (28.90, 7.60) -> Target: elixir_collector
+2025-05-30 13:05:45,757 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:10 - T:1.00s - Troop goblin_2 moved from (7.5, 30.5) to (7.60, 28.90) -> Target: gold_mine
+2025-05-30 13:05:45,758 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:10 - T:1.00s - --- Tick End ---
+2025-05-30 13:05:45,808 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:45,809 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop giant_1 moved from (13.348528137423857, 7.651471862576143) to (13.50, 7.50) -> Target: cannon
+2025-05-30 13:05:45,809 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop giant_1 moved from (12.5, 28.5) to (13.35, 27.65) -> Target: cannon
+2025-05-30 13:05:45,811 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop giant_1 moved from (30.5, 14.5) to (29.65, 15.35) -> Target: cannon
+2025-05-30 13:05:45,811 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop giant_1 state changed from moving to idle
+2025-05-30 13:05:45,812 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop wall_breaker_1 state changed from moving to dead
+2025-05-30 13:05:45,812 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop wall_breaker_1 died.
+2025-05-30 13:05:45,812 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop wall_breaker_1 moved from (12.5, 25.5) to (12.50, 24.50) -> Target: wall
+2025-05-30 13:05:45,813 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop wall_breaker_1 state changed from moving to dead
+2025-05-30 13:05:45,813 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop wall_breaker_1 died.
+2025-05-30 13:05:45,814 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop barbarian_2 state changed from moving to attacking
+2025-05-30 13:05:45,814 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop barbarian_2 attacked gold_mine
+2025-05-30 13:05:45,814 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop barbarian_2 state changed from moving to attacking
+2025-05-30 13:05:45,815 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop barbarian_2 attacked elixir_collector
+2025-05-30 13:05:45,816 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop barbarian_2 state changed from moving to attacking
+2025-05-30 13:05:45,816 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop barbarian_2 attacked elixir_collector
+2025-05-30 13:05:45,816 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop barbarian_2 state changed from moving to attacking
+2025-05-30 13:05:45,816 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop barbarian_2 attacked elixir_collector
+2025-05-30 13:05:45,817 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop barbarian_2 state changed from moving to attacking
+2025-05-30 13:05:45,817 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop barbarian_2 attacked elixir_collector
+2025-05-30 13:05:45,820 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 state changed from idle to attacking
+2025-05-30 13:05:45,820 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 attacked gold_storage
+2025-05-30 13:05:45,820 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 state changed from idle to attacking
+2025-05-30 13:05:45,821 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 attacked gold_mine
+2025-05-30 13:05:45,821 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 state changed from idle to attacking
+2025-05-30 13:05:45,821 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 attacked elixir_collector
+2025-05-30 13:05:45,821 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 state changed from idle to attacking
+2025-05-30 13:05:45,821 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 attacked elixir_collector
+2025-05-30 13:05:45,821 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 state changed from idle to attacking
+2025-05-30 13:05:45,821 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 attacked builder_hut
+2025-05-30 13:05:45,821 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 state changed from moving to attacking
+2025-05-30 13:05:45,822 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 attacked gold_mine
+2025-05-30 13:05:45,822 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 state changed from moving to attacking
+2025-05-30 13:05:45,822 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 attacked elixir_collector
+2025-05-30 13:05:45,822 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 state changed from idle to attacking
+2025-05-30 13:05:45,822 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 attacked builder_hut
+2025-05-30 13:05:45,822 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 state changed from moving to attacking
+2025-05-30 13:05:45,822 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 attacked gold_mine
+2025-05-30 13:05:45,822 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 state changed from moving to attacking
+2025-05-30 13:05:45,822 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 attacked elixir_collector
+2025-05-30 13:05:45,823 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 state changed from moving to attacking
+2025-05-30 13:05:45,823 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 attacked wall
+2025-05-30 13:05:45,823 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 state changed from moving to attacking
+2025-05-30 13:05:45,823 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 attacked wall
+2025-05-30 13:05:45,823 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 state changed from idle to attacking
+2025-05-30 13:05:45,823 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 attacked barracks
+2025-05-30 13:05:45,823 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 state changed from idle to attacking
+2025-05-30 13:05:45,823 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 attacked laboratory
+2025-05-30 13:05:45,823 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 state changed from moving to attacking
+2025-05-30 13:05:45,824 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 attacked gold_mine
+2025-05-30 13:05:45,824 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 state changed from moving to attacking
+2025-05-30 13:05:45,824 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 attacked wall
+2025-05-30 13:05:45,824 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 state changed from idle to attacking
+2025-05-30 13:05:45,824 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 attacked builder_hut
+2025-05-30 13:05:45,824 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 state changed from idle to attacking
+2025-05-30 13:05:45,824 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop archer_2 attacked elixir_storage
+2025-05-30 13:05:45,825 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop goblin_2 state changed from moving to attacking
+2025-05-30 13:05:45,825 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop goblin_2 attacked builder_hut
+2025-05-30 13:05:45,825 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop goblin_2 state changed from moving to attacking
+2025-05-30 13:05:45,825 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop goblin_2 attacked builder_hut
+2025-05-30 13:05:45,825 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop goblin_2 state changed from moving to attacking
+2025-05-30 13:05:45,825 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop goblin_2 attacked elixir_collector
+2025-05-30 13:05:45,825 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop goblin_2 state changed from moving to attacking
+2025-05-30 13:05:45,825 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop goblin_2 attacked elixir_collector
+2025-05-30 13:05:45,825 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop goblin_2 state changed from moving to attacking
+2025-05-30 13:05:45,825 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop goblin_2 attacked gold_mine
+2025-05-30 13:05:45,826 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop goblin_2 state changed from moving to attacking
+2025-05-30 13:05:45,826 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop goblin_2 attacked gold_mine
+2025-05-30 13:05:45,826 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop goblin_2 state changed from idle to attacking
+2025-05-30 13:05:45,826 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop goblin_2 attacked builder_hut
+2025-05-30 13:05:45,827 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop goblin_2 state changed from idle to attacking
+2025-05-30 13:05:45,827 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop goblin_2 attacked builder_hut
+2025-05-30 13:05:45,827 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop goblin_2 state changed from moving to attacking
+2025-05-30 13:05:45,827 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - Troop goblin_2 attacked elixir_storage
+2025-05-30 13:05:45,827 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:None - T:1.10s - Defense archer_tower LVL2 lost target wall_breaker (dead, out of range/sight, or invalid type).
+2025-05-30 13:05:45,828 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:None - T:1.10s - Defense archer_tower LVL2 found potential target: wall_breaker LVL1
+2025-05-30 13:05:45,828 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:1.10s - Defense archer_tower LVL2 acquired new target: wall_breaker LVL1 at (28.4,16.9).
+2025-05-30 13:05:45,828 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:1.10s - archer_tower LVL2 at (18,15) attacks wall_breaker LVL1 at (28.4,16.9) for 13 damage.
+2025-05-30 13:05:45,828 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:11 - T:1.10s - --- Tick End ---
+2025-05-30 13:05:45,944 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:12 - T:1.20s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:45,944 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:12 - T:1.20s - Troop giant_1 moved from (13.5, 7.5) to (14.35, 6.65) -> Target: cannon
+2025-05-30 13:05:45,945 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:12 - T:1.20s - Troop giant_1 moved from (13.348528137423857, 27.651471862576145) to (13.50, 27.50) -> Target: cannon
+2025-05-30 13:05:45,946 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:12 - T:1.20s - Troop giant_1 moved from (29.651471862576145, 15.348528137423857) to (29.50, 15.50) -> Target: cannon
+2025-05-30 13:05:45,946 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:12 - T:1.20s - Troop giant_1 moved from (29.5, 34.5) to (28.65, 33.65) -> Target: mortar
+2025-05-30 13:05:45,946 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:12 - T:1.20s - Troop giant_1 state changed from idle to moving
+2025-05-30 13:05:45,947 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:12 - T:1.20s - Troop wall_breaker_1 moved from (12.5, 24.5) to (12.50, 23.50) -> Target: wall
+2025-05-30 13:05:45,953 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:12 - T:1.20s - --- Tick End ---
+2025-05-30 13:05:46,003 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:13 - T:1.30s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:46,003 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:13 - T:1.30s - Troop giant_1 moved from (14.348528137423857, 6.651471862576143) to (14.50, 6.50) -> Target: cannon
+2025-05-30 13:05:46,003 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:13 - T:1.30s - Troop giant_1 moved from (13.5, 27.5) to (14.35, 26.65) -> Target: cannon
+2025-05-30 13:05:46,003 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:13 - T:1.30s - Troop giant_1 moved from (29.5, 15.5) to (28.65, 16.35) -> Target: cannon
+2025-05-30 13:05:46,003 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:13 - T:1.30s - Troop giant_1 moved from (28.651471862576145, 33.651471862576145) to (28.50, 33.50) -> Target: mortar
+2025-05-30 13:05:46,003 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:13 - T:1.30s - Troop wall_breaker_1 moved from (12.5, 23.5) to (12.50, 22.50) -> Target: wall
+2025-05-30 13:05:46,015 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:13 - T:1.30s - --- Tick End ---
+2025-05-30 13:05:46,066 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:14 - T:1.40s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:46,067 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:14 - T:1.40s - Troop giant_1 moved from (14.5, 6.5) to (15.50, 6.50) -> Target: cannon
+2025-05-30 13:05:46,068 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:14 - T:1.40s - Troop giant_1 moved from (14.348528137423857, 26.651471862576145) to (14.50, 26.50) -> Target: cannon
+2025-05-30 13:05:46,069 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:14 - T:1.40s - Troop giant_1 moved from (28.651471862576145, 16.348528137423855) to (28.50, 16.50) -> Target: cannon
+2025-05-30 13:05:46,070 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:14 - T:1.40s - Troop giant_1 moved from (28.5, 33.5) to (27.65, 32.65) -> Target: mortar
+2025-05-30 13:05:46,071 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:14 - T:1.40s - Troop wall_breaker_1 moved from (12.5, 22.5) to (12.40, 21.10) -> Target: wall
+2025-05-30 13:05:46,081 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:14 - T:1.40s - --- Tick End ---
+2025-05-30 13:05:46,134 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:15 - T:1.50s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:46,144 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:15 - T:1.50s - Troop giant_1 state changed from moving to idle
+2025-05-30 13:05:46,144 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:15 - T:1.50s - Troop giant_1 moved from (14.5, 26.5) to (14.50, 25.50) -> Target: cannon
+2025-05-30 13:05:46,144 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:15 - T:1.50s - Troop giant_1 state changed from moving to attacking
+2025-05-30 13:05:46,144 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:15 - T:1.50s - Troop giant_1 attacked cannon
+2025-05-30 13:05:46,144 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:15 - T:1.50s - Troop giant_1 moved from (27.651471862576145, 32.651471862576145) to (27.50, 32.50) -> Target: mortar
+2025-05-30 13:05:46,144 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:15 - T:1.50s - Troop wall_breaker_1 state changed from moving to idle
+2025-05-30 13:05:46,160 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:15 - T:1.50s - --- Tick End ---
+2025-05-30 13:05:46,217 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:16 - T:1.60s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:46,217 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:16 - T:1.60s - Troop giant_1 moved from (15.5, 6.5) to (16.50, 6.50) -> Target: cannon
+2025-05-30 13:05:46,217 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:16 - T:1.60s - Troop giant_1 state changed from idle to moving
+2025-05-30 13:05:46,217 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:16 - T:1.60s - Troop giant_1 moved from (14.5, 25.5) to (14.50, 24.50) -> Target: cannon
+2025-05-30 13:05:46,217 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:16 - T:1.60s - Troop giant_1 moved from (27.5, 32.5) to (26.65, 31.65) -> Target: mortar
+2025-05-30 13:05:46,223 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:1.60s - archer_tower LVL2 at (18,15) attacks wall_breaker LVL1 at (28.4,16.9) for 13 damage.
+2025-05-30 13:05:46,223 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:1.60s - Troop wall_breaker LVL1 destroyed by archer_tower LVL2.
+2025-05-30 13:05:46,223 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:16 - T:1.60s - --- Tick End ---
+2025-05-30 13:05:46,289 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:17 - T:1.70s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:46,302 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:17 - T:1.70s - Troop giant_1 state changed from moving to idle
+2025-05-30 13:05:46,302 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:17 - T:1.70s - Troop giant_1 moved from (14.5, 24.5) to (14.50, 23.50) -> Target: cannon
+2025-05-30 13:05:46,302 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:17 - T:1.70s - Troop giant_1 moved from (26.651471862576145, 31.651471862576145) to (26.50, 31.50) -> Target: mortar
+2025-05-30 13:05:46,320 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:1.70s - cannon LVL3 at (15,18) attacks barbarian LVL2 at (9.1,11.6) for 11 damage.
+2025-05-30 13:05:46,320 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:1.70s - cannon LVL3 at (25,18) attacks archer LVL2 at (32.0,12.0) for 11 damage.
+2025-05-30 13:05:46,321 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:None - T:1.70s - Defense archer_tower LVL2 lost target wall_breaker (dead, out of range/sight, or invalid type).
+2025-05-30 13:05:46,321 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:None - T:1.70s - Defense archer_tower LVL2 found potential target: wall_breaker LVL1
+2025-05-30 13:05:46,321 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:1.70s - Defense archer_tower LVL2 acquired new target: wall_breaker LVL1 at (12.4,21.1).
+2025-05-30 13:05:46,321 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:17 - T:1.70s - --- Tick End ---
+2025-05-30 13:05:46,372 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:18 - T:1.80s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:46,372 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:18 - T:1.80s - Troop giant_1 moved from (16.5, 6.5) to (17.50, 6.50) -> Target: cannon
+2025-05-30 13:05:46,373 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:18 - T:1.80s - Troop giant_1 state changed from idle to moving
+2025-05-30 13:05:46,373 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:18 - T:1.80s - Troop giant_1 moved from (14.5, 23.5) to (14.50, 22.50) -> Target: cannon
+2025-05-30 13:05:46,374 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:18 - T:1.80s - Troop giant_1 moved from (26.5, 31.5) to (25.65, 30.65) -> Target: mortar
+2025-05-30 13:05:46,382 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:18 - T:1.80s - --- Tick End ---
+2025-05-30 13:05:46,432 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:19 - T:1.90s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:46,441 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:19 - T:1.90s - Troop giant_1 state changed from moving to idle
+2025-05-30 13:05:46,442 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:19 - T:1.90s - Troop giant_1 state changed from moving to attacking
+2025-05-30 13:05:46,442 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:19 - T:1.90s - Troop giant_1 attacked cannon
+2025-05-30 13:05:46,443 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:19 - T:1.90s - Troop giant_1 moved from (25.651471862576145, 30.651471862576145) to (25.50, 30.50) -> Target: mortar
+2025-05-30 13:05:46,453 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:19 - T:1.90s - --- Tick End ---
+2025-05-30 13:05:46,504 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:20 - T:2.00s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:46,505 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:20 - T:2.00s - Troop giant_1 moved from (17.5, 6.5) to (18.50, 6.50) -> Target: cannon
+2025-05-30 13:05:46,506 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:20 - T:2.00s - Troop giant_1 state changed from idle to moving
+2025-05-30 13:05:46,507 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:20 - T:2.00s - Troop giant_1 moved from (25.5, 30.5) to (24.50, 30.50) -> Target: mortar
+2025-05-30 13:05:46,514 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:20 - T:2.00s - --- Tick End ---
+2025-05-30 13:05:46,565 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:46,578 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop giant_1 state changed from moving to idle
+2025-05-30 13:05:46,578 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop giant_1 state changed from moving to attacking
+2025-05-30 13:05:46,579 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop giant_1 attacked mortar
+2025-05-30 13:05:46,582 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop barbarian_2 attacked gold_mine
+2025-05-30 13:05:46,585 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop barbarian_2 attacked elixir_collector
+2025-05-30 13:05:46,588 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop barbarian_2 attacked elixir_collector
+2025-05-30 13:05:46,588 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop barbarian_2 attacked elixir_collector
+2025-05-30 13:05:46,597 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop barbarian_2 attacked elixir_collector
+2025-05-30 13:05:46,600 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop archer_2 attacked gold_storage
+2025-05-30 13:05:46,600 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop archer_2 attacked gold_mine
+2025-05-30 13:05:46,601 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop archer_2 attacked elixir_collector
+2025-05-30 13:05:46,602 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop archer_2 attacked elixir_collector
+2025-05-30 13:05:46,602 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop archer_2 attacked builder_hut
+2025-05-30 13:05:46,602 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop archer_2 attacked gold_mine
+2025-05-30 13:05:46,603 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop archer_2 attacked elixir_collector
+2025-05-30 13:05:46,603 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop archer_2 attacked builder_hut
+2025-05-30 13:05:46,604 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop archer_2 attacked gold_mine
+2025-05-30 13:05:46,604 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop archer_2 attacked elixir_collector
+2025-05-30 13:05:46,604 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop archer_2 attacked wall
+2025-05-30 13:05:46,604 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop archer_2 attacked wall
+2025-05-30 13:05:46,604 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop archer_2 attacked barracks
+2025-05-30 13:05:46,604 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop archer_2 attacked laboratory
+2025-05-30 13:05:46,604 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop archer_2 attacked gold_mine
+2025-05-30 13:05:46,604 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop archer_2 attacked wall
+2025-05-30 13:05:46,604 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop archer_2 attacked builder_hut
+2025-05-30 13:05:46,604 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop archer_2 attacked elixir_storage
+2025-05-30 13:05:46,604 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop goblin_2 attacked builder_hut
+2025-05-30 13:05:46,604 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop goblin_2 attacked builder_hut
+2025-05-30 13:05:46,604 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop goblin_2 attacked elixir_collector
+2025-05-30 13:05:46,604 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop goblin_2 attacked elixir_collector
+2025-05-30 13:05:46,604 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop goblin_2 attacked gold_mine
+2025-05-30 13:05:46,604 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop goblin_2 attacked gold_mine
+2025-05-30 13:05:46,604 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop goblin_2 attacked builder_hut
+2025-05-30 13:05:46,604 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop goblin_2 attacked builder_hut
+2025-05-30 13:05:46,604 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - Troop goblin_2 attacked elixir_storage
+2025-05-30 13:05:46,604 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:2.10s - archer_tower LVL2 at (18,15) attacks wall_breaker LVL1 at (12.4,21.1) for 13 damage.
+2025-05-30 13:05:46,604 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:21 - T:2.10s - --- Tick End ---
+2025-05-30 13:05:46,663 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:22 - T:2.20s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:46,663 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:22 - T:2.20s - Troop giant_1 moved from (18.5, 6.5) to (19.35, 7.35) -> Target: cannon
+2025-05-30 13:05:46,663 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:22 - T:2.20s - Troop giant_1 state changed from idle to moving
+2025-05-30 13:05:46,663 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:22 - T:2.20s - --- Tick End ---
+2025-05-30 13:05:46,725 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:23 - T:2.30s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:46,726 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:23 - T:2.30s - Troop giant_1 moved from (19.348528137423855, 7.348528137423857) to (19.50, 7.50) -> Target: cannon
+2025-05-30 13:05:46,741 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:23 - T:2.30s - --- Tick End ---
+2025-05-30 13:05:46,793 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:24 - T:2.40s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:46,793 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:24 - T:2.40s - Troop giant_1 moved from (19.5, 7.5) to (19.50, 8.50) -> Target: cannon
+2025-05-30 13:05:46,804 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:24 - T:2.40s - --- Tick End ---
+2025-05-30 13:05:46,861 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:25 - T:2.50s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:46,861 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:25 - T:2.50s - Troop giant_1 moved from (19.5, 8.5) to (19.50, 9.50) -> Target: cannon
+2025-05-30 13:05:46,861 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:25 - T:2.50s - Troop giant_1 attacked cannon
+2025-05-30 13:05:46,868 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:2.50s - cannon LVL3 at (15,18) attacks barbarian LVL2 at (9.1,11.6) for 11 damage.
+2025-05-30 13:05:46,868 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:2.50s - cannon LVL3 at (25,18) attacks archer LVL2 at (32.0,12.0) for 11 damage.
+2025-05-30 13:05:46,868 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:2.50s - Troop archer LVL2 destroyed by cannon LVL3.
+2025-05-30 13:05:46,868 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:25 - T:2.50s - --- Tick End ---
+2025-05-30 13:05:46,997 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:26 - T:2.60s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:46,997 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:26 - T:2.60s - Troop giant_1 moved from (19.5, 9.5) to (19.50, 10.50) -> Target: cannon
+2025-05-30 13:05:47,008 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:26 - T:2.60s - Troop barbarian_2 moved from (4.599805257848288, 23.903115874427378) to (4.50, 23.50) -> Target: barracks
+2025-05-30 13:05:47,008 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:26 - T:2.60s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:47,008 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:None - T:2.60s - Defense cannon LVL3 lost target archer (dead, out of range/sight, or invalid type).
+2025-05-30 13:05:47,008 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:None - T:2.60s - Defense cannon LVL3 found potential target: giant LVL1
+2025-05-30 13:05:47,008 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:2.60s - Defense cannon LVL3 acquired new target: giant LVL1 at (28.5,16.5).
+2025-05-30 13:05:47,008 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:2.60s - archer_tower LVL2 at (18,15) attacks wall_breaker LVL1 at (12.4,21.1) for 13 damage.
+2025-05-30 13:05:47,008 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:2.60s - Troop wall_breaker LVL1 destroyed by archer_tower LVL2.
+2025-05-30 13:05:47,008 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:26 - T:2.60s - --- Tick End ---
+2025-05-30 13:05:47,064 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:47,065 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - Troop giant_1 moved from (19.5, 10.5) to (19.50, 11.50) -> Target: cannon
+2025-05-30 13:05:47,065 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - Troop wall_breaker_1 moved from (33.6, 31.4) to (33.50, 31.50) -> Target: elixir_storage
+2025-05-30 13:05:47,065 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - Troop wall_breaker_1 state changed from idle to moving
+2025-05-30 13:05:47,065 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - Troop barbarian_2 moved from (9.096884125572622, 11.599805257848288) to (9.50, 11.50) -> Target: gold_storage
+2025-05-30 13:05:47,065 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:47,065 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - Troop barbarian_2 moved from (33.59980525784829, 14.096884125572622) to (33.50, 14.50) -> Target: elixir_collector
+2025-05-30 13:05:47,065 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:47,065 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - Troop barbarian_2 moved from (7.096884125572622, 15.599805257848288) to (7.50, 15.50) -> Target: gold_mine
+2025-05-30 13:05:47,065 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:47,065 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - Troop barbarian_2 state changed from moving to attacking
+2025-05-30 13:05:47,065 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - Troop barbarian_2 attacked barracks
+2025-05-30 13:05:47,065 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - Troop barbarian_2 moved from (10.599805257848288, 9.096884125572622) to (10.50, 9.50) -> Target: gold_storage
+2025-05-30 13:05:47,065 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:47,065 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - Troop barbarian_2 moved from (10.599805257848288, 28.903115874427378) to (10.50, 28.50) -> Target: gold_mine
+2025-05-30 13:05:47,065 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:47,065 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - Troop barbarian_2 moved from (30.59980525784829, 33.90311587442738) to (30.50, 33.50) -> Target: elixir_storage
+2025-05-30 13:05:47,065 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - Troop barbarian_2 state changed from idle to moving
+2025-05-30 13:05:47,065 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - Troop goblin_2 moved from (15.6, 7.1) to (15.50, 7.50) -> Target: gold_mine
+2025-05-30 13:05:47,065 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - Troop goblin_2 state changed from idle to moving
+2025-05-30 13:05:47,065 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:None - T:2.70s - Defense archer_tower LVL2 lost target wall_breaker (dead, out of range/sight, or invalid type).
+2025-05-30 13:05:47,065 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:None - T:2.70s - Defense archer_tower LVL2 found potential target: giant LVL1
+2025-05-30 13:05:47,065 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:2.70s - Defense archer_tower LVL2 acquired new target: giant LVL1 at (19.5,11.5).
+2025-05-30 13:05:47,065 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:27 - T:2.70s - --- Tick End ---
+2025-05-30 13:05:47,130 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:28 - T:2.80s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:47,132 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:28 - T:2.80s - Troop giant_1 moved from (19.5, 11.5) to (18.65, 12.35) -> Target: cannon
+2025-05-30 13:05:47,132 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:28 - T:2.80s - Troop wall_breaker_1 state changed from moving to dead
+2025-05-30 13:05:47,132 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:28 - T:2.80s - Troop wall_breaker_1 died.
+2025-05-30 13:05:47,132 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:28 - T:2.80s - Troop barbarian_2 state changed from moving to attacking
+2025-05-30 13:05:47,132 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:28 - T:2.80s - Troop barbarian_2 attacked gold_storage
+2025-05-30 13:05:47,132 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:28 - T:2.80s - Troop barbarian_2 state changed from moving to attacking
+2025-05-30 13:05:47,132 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:28 - T:2.80s - Troop barbarian_2 attacked elixir_collector
+2025-05-30 13:05:47,132 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:28 - T:2.80s - Troop barbarian_2 state changed from moving to attacking
+2025-05-30 13:05:47,132 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:28 - T:2.80s - Troop barbarian_2 attacked gold_mine
+2025-05-30 13:05:47,132 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:28 - T:2.80s - Troop barbarian_2 state changed from moving to attacking
+2025-05-30 13:05:47,132 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:28 - T:2.80s - Troop barbarian_2 attacked gold_storage
+2025-05-30 13:05:47,132 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:28 - T:2.80s - Troop barbarian_2 state changed from moving to attacking
+2025-05-30 13:05:47,132 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:28 - T:2.80s - Troop barbarian_2 attacked gold_mine
+2025-05-30 13:05:47,132 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:28 - T:2.80s - Troop barbarian_2 state changed from moving to attacking
+2025-05-30 13:05:47,132 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:28 - T:2.80s - Troop barbarian_2 attacked elixir_storage
+2025-05-30 13:05:47,132 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:28 - T:2.80s - Troop goblin_2 state changed from moving to attacking
+2025-05-30 13:05:47,132 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:28 - T:2.80s - Troop goblin_2 attacked gold_mine
+2025-05-30 13:05:47,132 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:28 - T:2.80s - --- Tick End ---
+2025-05-30 13:05:47,190 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:29 - T:2.90s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:47,190 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:29 - T:2.90s - Troop giant_1 moved from (18.651471862576145, 12.348528137423857) to (18.50, 12.50) -> Target: cannon
+2025-05-30 13:05:47,190 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:29 - T:2.90s - Troop giant_1 attacked cannon
+2025-05-30 13:05:47,195 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:29 - T:2.90s - --- Tick End ---
+2025-05-30 13:05:47,247 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:30 - T:3.00s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:47,247 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:30 - T:3.00s - Troop giant_1 moved from (18.5, 12.5) to (18.50, 13.50) -> Target: archer_tower
+2025-05-30 13:05:47,247 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:30 - T:3.00s - Troop giant_1 new target: archer_tower
+2025-05-30 13:05:47,275 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:30 - T:3.00s - --- Tick End ---
+2025-05-30 13:05:47,329 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:47,329 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop giant_1 state changed from moving to attacking
+2025-05-30 13:05:47,329 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop giant_1 attacked archer_tower
+2025-05-30 13:05:47,329 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop giant_1 attacked mortar
+2025-05-30 13:05:47,329 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop barbarian_2 attacked gold_mine
+2025-05-30 13:05:47,329 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop barbarian_2 attacked elixir_collector
+2025-05-30 13:05:47,329 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop barbarian_2 attacked elixir_collector
+2025-05-30 13:05:47,329 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop barbarian_2 attacked elixir_collector
+2025-05-30 13:05:47,338 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop barbarian_2 attacked elixir_collector
+2025-05-30 13:05:47,338 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop archer_2 attacked gold_storage
+2025-05-30 13:05:47,338 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop archer_2 attacked gold_mine
+2025-05-30 13:05:47,338 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop archer_2 attacked elixir_collector
+2025-05-30 13:05:47,338 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop archer_2 attacked builder_hut
+2025-05-30 13:05:47,338 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop archer_2 attacked gold_mine
+2025-05-30 13:05:47,338 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop archer_2 attacked elixir_collector
+2025-05-30 13:05:47,338 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop archer_2 attacked builder_hut
+2025-05-30 13:05:47,338 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop archer_2 attacked gold_mine
+2025-05-30 13:05:47,338 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop archer_2 attacked elixir_collector
+2025-05-30 13:05:47,338 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop archer_2 attacked wall
+2025-05-30 13:05:47,338 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop archer_2 attacked wall
+2025-05-30 13:05:47,338 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop archer_2 attacked barracks
+2025-05-30 13:05:47,338 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop archer_2 attacked laboratory
+2025-05-30 13:05:47,354 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop archer_2 attacked gold_mine
+2025-05-30 13:05:47,354 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop archer_2 attacked wall
+2025-05-30 13:05:47,354 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop archer_2 attacked builder_hut
+2025-05-30 13:05:47,354 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop archer_2 attacked elixir_storage
+2025-05-30 13:05:47,354 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop goblin_2 attacked builder_hut
+2025-05-30 13:05:47,354 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop goblin_2 attacked builder_hut
+2025-05-30 13:05:47,354 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop goblin_2 attacked elixir_collector
+2025-05-30 13:05:47,354 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop goblin_2 attacked elixir_collector
+2025-05-30 13:05:47,354 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop goblin_2 attacked gold_mine
+2025-05-30 13:05:47,354 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop goblin_2 attacked gold_mine
+2025-05-30 13:05:47,354 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop goblin_2 attacked builder_hut
+2025-05-30 13:05:47,354 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop goblin_2 attacked builder_hut
+2025-05-30 13:05:47,354 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - Troop goblin_2 attacked elixir_storage
+2025-05-30 13:05:47,354 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:3.10s - archer_tower LVL2 at (18,15) attacks giant LVL1 at (18.5,13.5) for 13 damage.
+2025-05-30 13:05:47,354 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:31 - T:3.10s - --- Tick End ---
+2025-05-30 13:05:47,415 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:32 - T:3.20s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:47,432 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:32 - T:3.20s - --- Tick End ---
+2025-05-30 13:05:47,492 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:33 - T:3.30s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:47,512 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:3.30s - cannon LVL3 at (15,18) attacks barbarian LVL2 at (9.5,11.5) for 11 damage.
+2025-05-30 13:05:47,512 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:3.30s - cannon LVL3 at (25,18) attacks giant LVL1 at (28.5,16.5) for 11 damage.
+2025-05-30 13:05:47,512 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:33 - T:3.30s - --- Tick End ---
+2025-05-30 13:05:47,570 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:34 - T:3.40s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:47,590 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:34 - T:3.40s - --- Tick End ---
+2025-05-30 13:05:47,647 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:35 - T:3.50s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:47,647 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:35 - T:3.50s - Troop giant_1 attacked cannon
+2025-05-30 13:05:47,665 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:35 - T:3.50s - --- Tick End ---
+2025-05-30 13:05:47,716 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:36 - T:3.60s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:47,730 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:3.60s - archer_tower LVL2 at (18,15) attacks giant LVL1 at (18.5,13.5) for 13 damage.
+2025-05-30 13:05:47,730 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:36 - T:3.60s - --- Tick End ---
+2025-05-30 13:05:47,784 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:37 - T:3.70s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:47,784 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:37 - T:3.70s - Troop barbarian_2 attacked barracks
+2025-05-30 13:05:47,819 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:37 - T:3.70s - --- Tick End ---
+2025-05-30 13:05:47,869 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:38 - T:3.80s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:47,869 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:38 - T:3.80s - Troop barbarian_2 attacked gold_storage
+2025-05-30 13:05:47,869 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:38 - T:3.80s - Troop barbarian_2 attacked elixir_collector
+2025-05-30 13:05:47,869 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:38 - T:3.80s - Troop barbarian_2 attacked gold_mine
+2025-05-30 13:05:47,869 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:38 - T:3.80s - Troop barbarian_2 attacked gold_storage
+2025-05-30 13:05:47,869 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:38 - T:3.80s - Troop barbarian_2 attacked gold_mine
+2025-05-30 13:05:47,869 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:38 - T:3.80s - Troop barbarian_2 attacked elixir_storage
+2025-05-30 13:05:47,880 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:38 - T:3.80s - Troop goblin_2 attacked gold_mine
+2025-05-30 13:05:47,880 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:38 - T:3.80s - --- Tick End ---
+2025-05-30 13:05:48,010 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:39 - T:3.90s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:48,011 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:39 - T:3.90s - Troop giant_1 attacked cannon
+2025-05-30 13:05:48,041 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:39 - T:3.90s - --- Tick End ---
+2025-05-30 13:05:48,092 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:40 - T:4.00s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:48,115 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:40 - T:4.00s - --- Tick End ---
+2025-05-30 13:05:48,167 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:48,167 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop giant_1 attacked archer_tower
+2025-05-30 13:05:48,167 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop giant_1 attacked mortar
+2025-05-30 13:05:48,167 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop barbarian_2 attacked gold_mine
+2025-05-30 13:05:48,167 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop barbarian_2 attacked elixir_collector
+2025-05-30 13:05:48,167 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop barbarian_2 attacked elixir_collector
+2025-05-30 13:05:48,167 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop barbarian_2 attacked elixir_collector
+2025-05-30 13:05:48,167 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop barbarian_2 attacked elixir_collector
+2025-05-30 13:05:48,167 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop archer_2 attacked gold_storage
+2025-05-30 13:05:48,167 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop archer_2 attacked gold_mine
+2025-05-30 13:05:48,179 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop archer_2 attacked elixir_collector
+2025-05-30 13:05:48,179 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop archer_2 attacked builder_hut
+2025-05-30 13:05:48,179 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop archer_2 attacked gold_mine
+2025-05-30 13:05:48,179 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop archer_2 attacked elixir_collector
+2025-05-30 13:05:48,179 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop archer_2 attacked builder_hut
+2025-05-30 13:05:48,179 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop archer_2 attacked gold_mine
+2025-05-30 13:05:48,179 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop archer_2 attacked elixir_collector
+2025-05-30 13:05:48,179 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop archer_2 attacked wall
+2025-05-30 13:05:48,179 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop archer_2 attacked wall
+2025-05-30 13:05:48,179 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop archer_2 attacked barracks
+2025-05-30 13:05:48,179 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop archer_2 attacked laboratory
+2025-05-30 13:05:48,179 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop archer_2 attacked gold_mine
+2025-05-30 13:05:48,179 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop archer_2 attacked wall
+2025-05-30 13:05:48,179 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop archer_2 attacked builder_hut
+2025-05-30 13:05:48,179 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop archer_2 attacked elixir_storage
+2025-05-30 13:05:48,179 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop goblin_2 attacked builder_hut
+2025-05-30 13:05:48,179 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop goblin_2 attacked builder_hut
+2025-05-30 13:05:48,194 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop goblin_2 attacked elixir_collector
+2025-05-30 13:05:48,194 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop goblin_2 attacked elixir_collector
+2025-05-30 13:05:48,194 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop goblin_2 attacked gold_mine
+2025-05-30 13:05:48,194 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop goblin_2 attacked gold_mine
+2025-05-30 13:05:48,194 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop goblin_2 attacked builder_hut
+2025-05-30 13:05:48,194 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop goblin_2 attacked builder_hut
+2025-05-30 13:05:48,203 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - Troop goblin_2 attacked elixir_storage
+2025-05-30 13:05:48,204 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:41 - T:4.10s - --- Tick End ---
+2025-05-30 13:05:48,254 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:42 - T:4.20s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:48,269 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:4.20s - cannon LVL3 at (15,18) attacks barbarian LVL2 at (9.5,11.5) for 11 damage.
+2025-05-30 13:05:48,269 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:4.20s - Troop barbarian LVL2 destroyed by cannon LVL3.
+2025-05-30 13:05:48,269 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:4.20s - cannon LVL3 at (25,18) attacks giant LVL1 at (28.5,16.5) for 11 damage.
+2025-05-30 13:05:48,269 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:4.20s - archer_tower LVL2 at (18,15) attacks giant LVL1 at (18.5,13.5) for 13 damage.
+2025-05-30 13:05:48,269 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:42 - T:4.20s - --- Tick End ---
+2025-05-30 13:05:48,330 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:43 - T:4.30s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:48,347 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:None - T:4.30s - Defense cannon LVL3 lost target barbarian (dead, out of range/sight, or invalid type).
+2025-05-30 13:05:48,347 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:None - T:4.30s - Defense cannon LVL3 found potential target: giant LVL1
+2025-05-30 13:05:48,347 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:4.30s - Defense cannon LVL3 acquired new target: giant LVL1 at (14.5,22.5).
+2025-05-30 13:05:48,347 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:43 - T:4.30s - --- Tick End ---
+2025-05-30 13:05:48,401 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:44 - T:4.40s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:48,410 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:44 - T:4.40s - --- Tick End ---
+2025-05-30 13:05:48,471 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:45 - T:4.50s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:48,489 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:45 - T:4.50s - --- Tick End ---
+2025-05-30 13:05:48,545 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:46 - T:4.60s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:48,545 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:46 - T:4.60s - Troop giant_1 attacked cannon
+2025-05-30 13:05:48,551 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:46 - T:4.60s - --- Tick End ---
+2025-05-30 13:05:48,617 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:47 - T:4.70s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:48,630 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:47 - T:4.70s - --- Tick End ---
+2025-05-30 13:05:48,685 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:48 - T:4.80s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:48,685 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:48 - T:4.80s - Troop barbarian_2 attacked barracks
+2025-05-30 13:05:48,693 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:None - T:4.80s - archer_tower LVL2 at (18,15) attacks giant LVL1 at (18.5,13.5) for 13 damage.
+2025-05-30 13:05:48,693 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:48 - T:4.80s - --- Tick End ---
+2025-05-30 13:05:48,757 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:49 - T:4.90s - --- Tick Start --- DT: 0.1
+2025-05-30 13:05:48,757 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:49 - T:4.90s - Troop barbarian_2 attacked elixir_collector
+2025-05-30 13:05:48,757 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:49 - T:4.90s - Troop barbarian_2 attacked gold_mine
+2025-05-30 13:05:48,757 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:49 - T:4.90s - Troop barbarian_2 attacked gold_storage
+2025-05-30 13:05:48,757 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:49 - T:4.90s - Troop barbarian_2 attacked gold_mine
+2025-05-30 13:05:48,757 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:49 - T:4.90s - Troop barbarian_2 attacked elixir_storage
+2025-05-30 13:05:48,764 - INFO - BATTLE:battle_20250530_130544_838295 - TICK:49 - T:4.90s - Troop goblin_2 attacked gold_mine
+2025-05-30 13:05:48,764 - DEBUG - BATTLE:battle_20250530_130544_838295 - TICK:49 - T:4.90s - --- Tick End ---

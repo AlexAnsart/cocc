@@ -139,10 +139,11 @@ PATHFINDING_CONFIG = {
     },
     
     # Autres paramètres
-    "retarget_distance_threshold": 3.0,
-    "path_recalculation_interval": 5,
+    "retarget_interval": 3.0,  # Temps en secondes avant de réévaluer la cible active
+    "path_recalculation_interval": 1.0, # Temps en secondes avant de recalculer le chemin actif
     "wall_break_time_estimation": 5.0,
     "compartment_preference": 0.8,
+    "num_candidates_to_evaluate": 5 # Nombre de cibles potentielles à évaluer lors de find_target
 }
 
 # Types de bâtiments par catégorie

@@ -23,8 +23,8 @@ class Troop(ABC):
         self.hp = self.max_hp
         self.state = TroopState.IDLE
         self.target = None
-        self.target_position = None
-        self.path = []
+        self.target_position = None # La coordonnée précise où la troupe essaie d'aller
+        self.path: Optional[List[Tuple[float, float]]] = None # Chemin explicite avec type
         self.path_index = 0
         self.last_attack_time = 0
         self.last_retarget_time = 0
@@ -76,7 +76,7 @@ class Troop(ABC):
                 self.hp = 0
                 self.state = TroopState.DEAD
                 self.target = None
-                self.path = []
+                self.path = None
     
     def is_alive(self) -> bool:
         """Vérifie si la troupe est vivante"""
@@ -111,58 +111,101 @@ class Troop(ABC):
         return distance_to_hitbox_edge <= self.range
     
     @abstractmethod
-    def get_target_preference_score(self, building) -> float:
-        """Retourne un score de préférence pour un bâtiment (plus bas = meilleure cible)"""
+    def get_target_preference_score(self, building, is_wall_blocking_path: bool = False) -> float:
+        """
+        Retourne un score de préférence pour un bâtiment.
+        Plus le score est bas, plus la cible est préférée.
+        'is_wall_blocking_path' peut être utilisé par les implémentations pour ajuster le score.
+        """
         pass
     
     def find_target(self, buildings: List, walls: List, current_time: float) -> Optional[object]:
-        """Trouve la meilleure cible parmi les bâtiments"""
+        """Trouve la meilleure cible parmi les bâtiments."""
         from ..core.config import PATHFINDING_CONFIG
         
         # Vérifier s'il faut recalculer la cible
-        # Retarget if current target destroyed, or if enough time passed, or if no target
         if self.target and not self.target.is_destroyed and \
-           current_time - self.last_retarget_time < PATHFINDING_CONFIG["retarget_distance_threshold"] : # This config is actually an interval in seconds
+           current_time - self.last_retarget_time < PATHFINDING_CONFIG["retarget_interval"]: # Utiliser retarget_interval
              pass # Keep current target
         else:
-            # Filtrer les bâtiments valides
-            valid_buildings = [b for b in buildings if not b.is_destroyed]
-            if not valid_buildings:
-                self.target = None
-                self.path = []
-                return None
+            # Filtrer les bâtiments valides (non-murs explicitement pour la sélection initiale de cible)
+            # Les murs seront considérés par A* pour le pathfinding.
+            valid_buildings = [b for b in buildings if not b.is_destroyed and b.type != 'wall']
             
+            # Si après avoir filtré les murs, il n'y a plus de bâtiments,
+            # alors on considère les murs comme cibles potentielles (surtout si la troupe est bloquée).
+            if not valid_buildings:
+                # Si on est un sapeur, on cible les murs en priorité s'il n'y a que ça ou si on doit ouvrir.
+                # Pour les autres, on cible les murs en dernier recours.
+                if self.type == "wall_breaker":
+                    valid_buildings = [w for w in walls if not w.is_destroyed]
+                else:
+                    # Pour les autres troupes, si aucun bâtiment non-mur n'est dispo,
+                    # elles peuvent cibler des murs s'il n'y a rien d'autre.
+                    # Ou si elles sont bloquées et que le seul moyen est de percer.
+                    # Pour l'instant, laissons A* gérer le blocage.
+                    # Si pas de bâtiments, considérer les murs restants comme dernières cibles possibles.
+                    all_remaining_structures = [b for b in buildings if not b.is_destroyed] + \
+                                             [w for w in walls if not w.is_destroyed]
+                    if not all_remaining_structures:
+                        self.target = None
+                        self.path = None
+                        return None
+                    # Pour la sélection de cible, on priorise non-murs. Si aucun, alors les murs sont permis.
+                    # find_target se concentre sur les bâtiments non-murs,
+                    # et si aucun n'est trouvé, A* essaiera de trouver un chemin, et si bloqué par des murs, les attaquera.
+                    # Ce comportement est déjà géré par la haute pénalité des murs dans A* pour les non-sapeurs.
+                    # Si on ne trouve aucun bâtiment non-mur, on ne fait rien ici, A* se débrouillera.
+                    # Laissons le code original qui prend les 'buildings' (qui peuvent inclure des murs si BaseLayout les y met)
+                    valid_buildings = [b for b in buildings if not b.is_destroyed] # Réinitialiser pour inclure les murs si c'est le cas
+                    if not valid_buildings: # S'il n'y a VRAIMENT plus rien (même pas de murs)
+                        self.target = None
+                        self.path = None
+                        return None
+
+
             # Trier par distance (vol d'oiseau pour une première sélection)
-            # L'A* prendra en compte les murs pour le coût réel du chemin
             buildings_by_distance = sorted(valid_buildings, 
                                          key=lambda b: self.distance_to_building(b))
             
-            # Prendre les N plus proches (ou plus pour certaines troupes)
-            # Ce N peut être ajusté, ou on peut évaluer plus de cibles si nécessaire
-            n_closest = 4 if self.type == "wall_breaker" else 3 
-            # Make sure we don't go out of bounds
+            n_closest = PATHFINDING_CONFIG.get("num_candidates_to_evaluate", 5)
             closest_buildings_to_evaluate = buildings_by_distance[:min(n_closest, len(buildings_by_distance))]
             
+            if not closest_buildings_to_evaluate: # Si après tout ça, rien à évaluer.
+                self.target = None
+                self.path = None
+                return None
+
             best_score = float('inf')
             potential_target = None
             
             for building_candidate in closest_buildings_to_evaluate:
-                # Score de base : distance (sera affiné par A* plus tard si on veut) + préférence
-                # Pour l'instant, on utilise la distance directe pour la sélection de cible,
-                # et A* pour le chemin vers cette cible.
-                base_score = self.distance_to_building(building_candidate) 
+                # Le pathfinding A* sera appelé APRÈS qu'une cible soit choisie.
+                # Ici, on veut juste une évaluation rapide.
+                # 'is_wall_blocking_path' est difficile à déterminer ici sans A*.
+                # On se fie à la préférence de la sous-classe.
                 preference_score = self.get_target_preference_score(building_candidate)
                 
-                score = base_score * preference_score
+                # Si le score de préférence est infini, ignorer cette cible.
+                if preference_score == float('inf') and self.type != "wall_breaker": # Sapeurs peuvent avoir inf pour non-murs
+                    continue
+
+                distance_factor = self.distance_to_building(building_candidate)
                 
+                # Importance de la distance vs préférence peut être pondérée.
+                # Par exemple, w_dist * dist + w_pref * pref
+                # Pour l'instant, simple produit. Si pref_score est élevé, ça pénalise.
+                score = distance_factor * preference_score 
+                                
                 if score < best_score:
                     best_score = score
                     potential_target = building_candidate
             
-            if potential_target != self.target:
+            if potential_target != self.target or not self.path: # Recalculer path si nouvelle cible ou pas de path
                 self.target = potential_target
                 self.last_retarget_time = current_time
-                self.path = [] # Forcer le recalcul du chemin vers la nouvelle cible
+                # Le chemin sera calculé dans la méthode update() via calculate_path()
+                self.path = None # Forcer le recalcul du chemin vers la nouvelle cible
         
         return self.target
     
@@ -172,7 +215,7 @@ class Troop(ABC):
         from ..systems.pathfinding import find_path # Import A*
         
         if not target_building:
-            self.path = []
+            self.path = None
             return []
 
         # Déterminer la position cible pour A*
@@ -228,7 +271,7 @@ class Troop(ABC):
             # print(f"DEBUG: Path found for {self.type}: {self.path}")
         else:
             # print(f"DEBUG: No path found for {self.type} from ({self.x:.1f},{self.y:.1f}) to {target_pos_world}")
-            self.path = [] # Pas de chemin trouvé, vider le chemin
+            self.path = None # Pas de chemin trouvé, vider le chemin
 
         self.path_index = 0
         self.target_position = target_pos_world # Sauvegarder la destination pour laquelle ce chemin a été calculé
@@ -309,7 +352,7 @@ class Troop(ABC):
                 # print(f"DEBUG: {self.type} IDLE, no path or path ended, target: {self.target.type}, in_range: {self.is_in_range(self.target)}")
                 # Potentially force a retarget or path recalculation if stuck
                 if current_time - self.last_path_calculation_time > PATHFINDING_CONFIG["path_recalculation_interval"] * 0.5 : # check more frequently if stuck
-                    self.path = [] # force recalculation next tick
+                    self.path = None # force recalculation next tick
                     # print(f"DEBUG: {self.type} forcing path recalc as it seems stuck")
 
     def __repr__(self) -> str:

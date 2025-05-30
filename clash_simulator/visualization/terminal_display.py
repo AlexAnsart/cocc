@@ -65,29 +65,49 @@ class TerminalDisplay:
         self._print_grid()
     
     def render_battle(self, simulator: BattleSimulator) -> None:
-        """Affiche l'état actuel de la bataille"""
-        self._reset_grid()
+        """Affiche l'état actuel de la bataille avec la grille et les statistiques côte à côte."""
+        self._reset_grid() # Prépare self.grid avec les symboles colorés
         
-        # Placer les bâtiments
+        # Placer les bâtiments, troupes, projectiles...
         for building in simulator.base_layout.get_all_buildings():
             self._place_building(building)
-        
-        # Placer les troupes
         for troop in simulator.troops:
             if troop.is_alive():
                 self._place_troop(troop)
-        
-        # Afficher les projectiles de mortier
         for building in simulator.base_layout.buildings:
             if isinstance(building, Mortar) and hasattr(building, 'projectiles'):
                 for projectile in building.projectiles:
                     self._place_projectile(projectile)
         
-        # Afficher la grille
-        self._print_grid()
+        grid_lines = self._print_grid(return_lines=True) or []
+        stats_lines_raw = self._print_stats(simulator, return_lines=True) or []
+
+        grid_line_width_no_ansi = 0
+        if grid_lines:
+            import re
+            ansi_escape = re.compile(r'\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])')
+            # Utiliser la largeur de la première ligne de la grille comme référence pour le padding
+            # Cette largeur inclut les bordures et les espaces internes de la grille.
+            grid_line_width_no_ansi = len(ansi_escape.sub('', grid_lines[0]))
+
+        # Décalage pour le bloc de statistiques
+        stats_vertical_offset = len(grid_lines) // 3 if grid_lines else 0
         
-        # Afficher les statistiques
-        self._print_stats(simulator)
+        # Créer les lignes de statistiques décalées
+        stats_lines_padded = ["" for _ in range(stats_vertical_offset)] + stats_lines_raw
+
+        max_height = max(len(grid_lines), len(stats_lines_padded))
+        spacing = "   " 
+
+        final_display_lines = []
+        for i in range(max_height):
+            grid_part = grid_lines[i] if i < len(grid_lines) else " " * grid_line_width_no_ansi
+            stats_part = stats_lines_padded[i] if i < len(stats_lines_padded) else ""
+            
+            final_display_lines.append(f"{grid_part}{spacing}{stats_part}")
+        
+        for line in final_display_lines:
+            print(line)
     
     def _reset_grid(self) -> None:
         """Réinitialise la grille"""
@@ -168,43 +188,53 @@ class TerminalDisplay:
             symbol = self.get_color("orange") + "◎" + self.reset_color()
             self.grid[y][x] = symbol
     
-    def _print_grid(self) -> None:
-        """Affiche la grille"""
+    def _print_grid(self, return_lines: bool = False) -> Optional[List[str]]:
+        """Affiche la grille ou retourne ses lignes."""
+        lines = []
         # Bordure supérieure
-        print("┌" + "─" * (self.width + 2) + "┐")
+        lines.append("┌" + "─" * (self.width + 2) + "┐")
         
         # Contenu
-        for row in self.grid:
-            print("│ " + "".join(row) + " │")
+        for row_idx, row_content in enumerate(self.grid):
+            line_str = "│ " + "".join(row_content) + " │"
+            lines.append(line_str)
         
         # Bordure inférieure
-        print("└" + "─" * (self.width + 2) + "┘")
+        lines.append("└" + "─" * (self.width + 2) + "┘")
+        
+        if return_lines:
+            return lines
+        else:
+            for line in lines:
+                print(line)
+            return None # Explicite pour la clarté
     
-    def _print_stats(self, simulator: BattleSimulator) -> None:
-        """Affiche les statistiques de la bataille"""
+    def _print_stats(self, simulator: BattleSimulator, return_lines: bool = False) -> Optional[List[str]]:
+        """Affiche les statistiques de la bataille ou retourne ses lignes."""
         stats = simulator.get_statistics()
         
-        print(f"\n{self.get_color('cyan')}╔══════════════════════════════════════╗{self.reset_color()}")
-        print(f"{self.get_color('cyan')}║        STATISTIQUES DE BATAILLE      ║{self.reset_color()}")
-        print(f"{self.get_color('cyan')}╠══════════════════════════════════════╣{self.reset_color()}")
+        lines = []
+        lines.append(f"{self.get_color('cyan')}╔══════════════════════════════════════╗{self.reset_color()}")
+        lines.append(f"{self.get_color('cyan')}║        STATISTIQUES DE BATAILLE      ║{self.reset_color()}")
+        lines.append(f"{self.get_color('cyan')}╠══════════════════════════════════════╣{self.reset_color()}")
         
         # Temps
         time_color = "green" if simulator.get_remaining_time() > 60 else "yellow" if simulator.get_remaining_time() > 30 else "red"
-        print(f"{self.get_color('cyan')}║{self.reset_color()} Temps: {self.get_color(time_color)}{simulator.current_time:.1f}s / {simulator.battle_duration}s{self.reset_color()}")
+        lines.append(f"{self.get_color('cyan')}║{self.reset_color()} Temps: {self.get_color(time_color)}{simulator.current_time:.1f}s / {simulator.battle_duration}s{self.reset_color()}")
         
         # Destruction
         destruction = stats['destruction_percentage']
         dest_color = "red" if destruction < 30 else "yellow" if destruction < 70 else "green"
-        print(f"{self.get_color('cyan')}║{self.reset_color()} Destruction: {self.get_color(dest_color)}{destruction:.1f}%{self.reset_color()}")
+        lines.append(f"{self.get_color('cyan')}║{self.reset_color()} Destruction: {self.get_color(dest_color)}{destruction:.1f}%{self.reset_color()}")
         
         # Étoiles
         stars = stats['stars']
         stars_display = self.get_color("yellow") + "★" * stars + "☆" * (3 - stars) + self.reset_color()
-        print(f"{self.get_color('cyan')}║{self.reset_color()} Étoiles: {stars_display}")
+        lines.append(f"{self.get_color('cyan')}║{self.reset_color()} Étoiles: {stars_display}")
         
         # Troupes
         troops_color = "green" if stats['troops_lost'] == 0 else "yellow" if stats['troops_lost'] < stats['troops_deployed'] / 2 else "red"
-        print(f"{self.get_color('cyan')}║{self.reset_color()} Troupes: {self.get_color(troops_color)}{stats['troops_deployed'] - stats['troops_lost']}/{stats['troops_deployed']}{self.reset_color()}")
+        lines.append(f"{self.get_color('cyan')}║{self.reset_color()} Troupes: {self.get_color(troops_color)}{stats['troops_deployed'] - stats['troops_lost']}/{stats['troops_deployed']}{self.reset_color()}")
         
         # État
         state_colors = {
@@ -214,9 +244,16 @@ class TerminalDisplay:
             "timeout": "orange"
         }
         state_color = state_colors.get(stats['state'], "white")
-        print(f"{self.get_color('cyan')}║{self.reset_color()} État: {self.get_color(state_color)}{stats['state'].upper()}{self.reset_color()}")
+        lines.append(f"{self.get_color('cyan')}║{self.reset_color()} État: {self.get_color(state_color)}{stats['state'].upper()}{self.reset_color()}")
         
-        print(f"{self.get_color('cyan')}╚══════════════════════════════════════╝{self.reset_color()}")
+        lines.append(f"{self.get_color('cyan')}╚══════════════════════════════════════╝{self.reset_color()}")
+        
+        if return_lines:
+            return lines
+        else:
+            for line in lines:
+                print(line)
+            return None # Explicite pour la clarté
     
     def print_legend(self) -> None:
         """Affiche la légende des symboles"""

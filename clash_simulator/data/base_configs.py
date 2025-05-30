@@ -10,16 +10,16 @@ BASE_CONFIGURATIONS: Dict[str, List[Tuple[str, int, Tuple[int, int]]]] = {
         # Defenses
         ("cannon", 3, (15, 18)), # Canon en haut à gauche, légèrement excentré
         ("cannon", 3, (25, 18)), # Canon en haut à droite, légèrement excentré
-        ("archer_tower", 2, (18, 15)), # Tour d'archer en haut, au centre
+        ("archer_tower", 3, (18, 15)), # Tour d'archer en haut, au centre
         ("mortar", 1, (20, 25)),    # Mortier en bas, au centre (protégé)
 
         # Resources - dispersés à l'extérieur des murs principaux
         ("gold_storage", 2, (10, 10)),
         ("elixir_storage", 2, (30, 30)),
-        ("gold_mine", 3, (8, 15)),
-        ("elixir_collector", 3, (32, 15)),
-        ("gold_mine", 3, (15, 8)),
-        ("elixir_collector", 3, (25, 8)),
+        ("gold_mine", 2, (8, 15)),
+        ("elixir_collector", 2, (32, 15)),
+        ("gold_mine", 2, (15, 8)),
+        ("elixir_collector", 2, (25, 8)),
         ("gold_mine", 3, (8, 25)),
         ("elixir_collector", 3, (32, 25)),
 

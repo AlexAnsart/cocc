@@ -11,7 +11,7 @@ ARMY_CONFIGURATIONS: Dict[str, List[Tuple[str, int, Tuple[float, float]]]] = {
         ("giant", 1, (5, 10)),  # Point d'attaque Nord-Ouest
         ("giant", 1, (5, 30)),  # Point d'attaque Sud-Ouest
         ("giant", 1, (35, 10)), # Point d'attaque Nord-Est (un peu plus centré)
-        ("giant", 1, (35, 30)), # Point d'attaque Sud-Est (un peu plus centré)
+        #("giant", 1, (35, 30)), # Point d'attaque Sud-Est (un peu plus centré)
         
         # 5 Sapeurs pour ouvrir les brèches, près des groupes de géants
         ("wall_breaker", 1, (6, 9)),
@@ -28,7 +28,7 @@ ARMY_CONFIGURATIONS: Dict[str, List[Tuple[str, int, Tuple[float, float]]]] = {
         ("barbarian", 2, (4, 15)), ("barbarian", 2, (4, 25)),
         ("barbarian", 2, (36, 15)), ("barbarian", 2, (36, 25)),
         ("barbarian", 2, (10, 5)), ("barbarian", 2, (30, 5)),
-        ("barbarian", 2, (10, 35)), ("barbarian", 2, (30, 35)),
+        #("barbarian", 2, (10, 35)), ("barbarian", 2, (30, 35)),
         
         # 18 Archers, en soutien derrière les barbares/géants et pour bâtiments à distance
         # Soutien direct
@@ -37,20 +37,20 @@ ARMY_CONFIGURATIONS: Dict[str, List[Tuple[str, int, Tuple[float, float]]]] = {
         # Flancs / nettoyage extérieur
         ("archer", 2, (3, 5)), ("archer", 2, (3, 35)),
         ("archer", 2, (37, 5)), ("archer", 2, (37, 35)),
-        ("archer", 2, (15, 3)), ("archer", 2, (25, 3)),
-        ("archer", 2, (15, 37)), ("archer", 2, (25, 37)),
+        ("archer", 2, (15, 3)), #("archer", 2, (25, 3)),
+        #("archer", 2, (15, 37)), ("archer", 2, (25, 37)),
         # Réserve
-        ("archer", 2, (1, 20)), ("archer", 2, (39, 20)),
-        ("archer", 2, (20, 1)), ("archer", 2, (20, 39)),
-        ("archer", 2, (5, 5)), ("archer", 2, (35, 35)),
+        #("archer", 2, (1, 20)), ("archer", 2, (39, 20)),
+        #("archer", 2, (20, 1)), ("archer", 2, (20, 39)),
+        #("archer", 2, (5, 5)), ("archer", 2, (35, 35)),
 
         # 10 Gobelins pour les ressources, déploiement large pour diversifier les points d'entrée sur les collecteurs/mines externes
         ("goblin", 2, (1, 2)), ("goblin", 2, (2, 1)), # Coin Nord-Ouest
         ("goblin", 2, (39, 2)), ("goblin", 2, (38, 1)), # Coin Nord-Est
-        ("goblin", 2, (1, 38)), ("goblin", 2, (2, 39)), # Coin Sud-Ouest
-        ("goblin", 2, (39, 38)), ("goblin", 2, (38, 39)), # Coin Sud-Est
-        ("goblin", 2, (15, 5)), # Nord centre
-        ("goblin", 2, (25, 35)),# Sud centre
+        #("goblin", 2, (1, 38)) # Coin Sud-Ouest
+        #("goblin", 2, (39, 38)), ("goblin", 2, (38, 39)), # Coin Sud-Est
+        #("goblin", 2, (15, 5)), # Nord centre
+        #("goblin", 2, (25, 35)),# Sud centre
     ],
     "Armée Démo Visuelle": [
         ("giant", 1, (10, 15)),

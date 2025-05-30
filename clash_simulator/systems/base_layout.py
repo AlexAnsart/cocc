@@ -200,15 +200,25 @@ class BaseLayout:
         return total
     
     def get_destruction_percentage(self) -> float:
-        """Calcule le pourcentage de destruction de la base"""
-        all_buildings = self.get_all_buildings()
-        if not all_buildings:
+        """Calcule le pourcentage de destruction de la base (basé sur les bâtiments, murs exclus)."""
+        # Utiliser self.buildings qui exclut les murs par convention d'ajout
+        target_buildings = [b for b in self.buildings if b.type != "wall"] # Double assurance, même si add_building les sépare
+
+        if not target_buildings:
+            # S'il n'y a que des murs ou aucun bâtiment, le pourcentage de destruction est 0
+            # ou 100 si on considère qu'il n'y a rien à détruire.
+            # Dans CoC, s'il n'y a que des murs, 0% est plus logique jusqu'à ce que des troupes soient bloquées.
+            # Cependant, pour le calcul de victoire, on se base sur les "vrais" bâtiments.
+            # Si self.buildings est vide, cela signifie qu'aucun bâtiment non-mur n'a été placé.
             return 0.0
             
-        total_buildings = len(all_buildings)
-        destroyed_buildings = sum(1 for b in all_buildings if b.is_destroyed)
+        total_target_buildings = len(target_buildings)
+        destroyed_target_buildings = sum(1 for b in target_buildings if b.is_destroyed)
         
-        return (destroyed_buildings / total_buildings) * 100
+        if total_target_buildings == 0: # Au cas où target_buildings ne contiendrait que des murs filtrés
+             return 0.0
+
+        return (destroyed_target_buildings / total_target_buildings) * 100
     
     def get_stars(self) -> int:
         """Calcule le nombre d'étoiles obtenues"""
